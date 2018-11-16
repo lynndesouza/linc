@@ -13,6 +13,7 @@
 /* Logo */
 .navbar-linc-logo img {
   height: 40px;
+  padding-right: 20px;
 }
 
 /* Right section */
@@ -20,6 +21,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.navbar-linc-left {
+padding: 20px 20px;
 }
 
 /* Basic navbar item */
@@ -67,4 +72,71 @@
   transform: rotate(45deg);
   border-left: 1px solid #E6E6E6;
   border-top: 1px solid #E6E6E6;
+}
+
+#search-btn {
+  position: relative;
+}
+
+.learn-more-btn {
+  background-color: #FFFFFF;
+  border: none;
+  font-size: 17px;
+  color: #616668;
+    &:hover {
+    background-color: $linc-light-gray;
+    border-radius: 5px;
+    }
+}
+
+.learn-more-dropdown {
+  // margin-left: -140px;
+  font-size: 14px;
+  border-radius: 5px;
+    li a:hover {
+    background-color: rgba(215,83,33, 0.01); // stupid thing
+    }
+    li:hover {
+      background-color: $linc-orange;
+    }
+    li a {
+    padding: 10px 20px;
+    margin-top: 0px;
+    margin-right: 10px;
+    }
+}
+
+
+input[type=text] {
+  width: 130px;
+  height: 35px;
+  -webkit-transition: width 0.7s ease-in-out;
+  transition: width 0.7s ease-in-out;
+  background-color: white;
+  background-image: url('search.png');
+  background-position: center left 6px;
+  font-size: 15px;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  padding-left: 30px;
+  border-radius: 10px;
+  border: 1px solid $linc-light-gray;
+}
+
+
+/* When the input field gets focus, change its width */
+input[type=text]:focus {
+    width: 300px;
+    margin-right: 100px;
+    border: 0.5px solid $linc-light-orange;
+    box-shadow: none;
+}
+
+
+.input-search {
+  position: absolute;
+  left: 245px;
+  ::placeholder {
+    color: #616668;
+}
 }
