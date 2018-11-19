@@ -1,9 +1,11 @@
-// .slider-image img {
-//  background-image: url(img1.jpg);
-//  height: 200px;
-//   max-width: 100%;
-//   background-size: cover;
-//   background-position: center;
-//   color: red;
-//   position: relative;
-// }
+.banner {
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 650px;
+  flex-direction: column;
+  text-align: center;
+}
