@@ -1,118 +1,38 @@
 /* Main navbar */
-.navbar-linc {
-  box-shadow: 0 4px 5px 0 rgba(0,0,0,0.05),0 1px 0 0 rgba(0,0,0,0.03);
-  background: white;
-  transition: all 0.3s ease;
-  height: 70px;
-  padding: 0px 30px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
+// nav {
+//   background-color: white !important;
+//   height: 80px;
+//   padding: 0 40px 0 40px !important;
+// }
 
-/* Logo */
-.navbar-linc-logo img {
-  height: 40px;
-  padding-right: 20px;
-}
 
-#logo-mobile {
-  height: 10px;
-}
-
-/* Right section */
-.navbar-linc-right {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.navbar-linc-left {
-padding: 20px 20px;
-}
-
-/* Basic navbar item */
-.navbar-linc-item {
-  cursor: pointer;
-  padding: 0 20px;
-}
-
-/* Navbar link */
+/* Navbar links */
 .navbar-linc-link {
   color: #616668;
-  font-size: 14px;
-}
-.navbar-linc-link:hover {
-  color: $linc-orange;
-  text-decoration: none;
-}
-
-/* Dropdown menu */
-.navbar-linc-dropdown-menu {
-  margin-top: 15px;
-  box-shadow: 1px 1px 4px #E6E6E6;
-  border-color: #E6E6E6;
-}
-.navbar-linc-dropdown-menu li > a {
-  transition: color 0.3s ease;
-  font-weight: lighter !important;
-  color: #999999 !important;
-  font-size: 15px !important;
-  line-height: 22px !important;
-  padding: 10px 20px;
-}
-.navbar-linc-dropdown-menu li > a:hover {
-  background: transparent !important;
+  &:hover {
   color: $linc-orange !important;
-}
-.navbar-linc-dropdown-menu:before {
-  content: ' ';
-  height: 10px;
-  width: 10px;
-  position: absolute;
-  right: 10px;
-  top: -6px;
-  background-color: white;
-  transform: rotate(45deg);
-  border-left: 1px solid #E6E6E6;
-  border-top: 1px solid #E6E6E6;
-}
-
-#search-btn {
-  position: relative;
+  }
 }
 
 .learn-more-btn {
-  left: 40px;
-  background-color: #FFFFFF;
-  border: none;
-  font-size: 17px;
-  color: #616668;
+  cursor: pointer !important;
+  background-color: #FFFFFF !important;
+  border: none !important;
+  color: #616668 !important;
     &:hover {
     background-color: $linc-light-gray;
-    border-radius: 5px;
     }
 }
 
 .learn-more-dropdown {
-  // margin-left: -140px;
-  font-size: 14px;
-  border-radius: 5px;
-    li a:hover {
-    background-color: rgba(215,83,33, 0.01); // stupid thing
-    }
-    li:hover {
+    a:hover {
       background-color: $linc-orange;
-    }
-    li a {
-    padding: 10px 20px;
-    margin-top: 0px;
-    margin-right: 10px;
     }
 }
 
+// <------- Search button css ------>
 
-input[type=text] {
+input[type=search] {
   width: 130px;
   height: 35px;
   -webkit-transition: width 0.7s ease-in-out;
@@ -129,7 +49,7 @@ input[type=text] {
 }
 
 /* When the input field gets focus, change its width */
-input[type=text]:focus {
+input[type=search]:focus {
     width: 300px;
     margin-right: 100px;
     border: 0.5px solid $linc-light-orange;
