@@ -4,7 +4,7 @@
     <img src="assets/logo.png" alt="logo">
   </a>
    <!-- Dropdown appearing on mobile only -->
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <!-- Dropdown appearing on wider screens -->
@@ -14,8 +14,7 @@
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
     </form>
     <!-- Learn more dropdown -->
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item dropdown">
+      <div class="nav-item dropdown mx-auto text-md-center">
         <a class="nav-link dropdown-toggle learn-more-btn d-none d-xl-block" data-toggle="dropdown" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
           Learn More
         </a>
@@ -26,8 +25,9 @@
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">Contact LINC</a>
         </div>
-      </li>
+      </div>
     <!-- Right Navigation -->
+    <ul class="navbar-nav ml-auto">
       <li class="nav-item">
         <a class="nav-link navbar-linc-link" href="#">Join LINC</a>
       </li>
