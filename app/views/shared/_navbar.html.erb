@@ -1,46 +1,43 @@
-<div class="navbar-linc">
-    <a href="/" class="navbar-linc-logo">
-      <img src="assets/logo.png" alt="logo">
-    </a>
 
-<!-- Learn more button -->
-<div class="btn-group">
-  <button type="button" class="btn btn-default dropdown-toggle learn-more-btn hidden-xs hidden-sm" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Learn More <span class="caret"></span>
+<nav class="navbar navbar-expand-lg">
+  <a class="navbar-brand" href="#">
+    <img src="assets/logo.png" alt="logo">
+  </a>
+   <!-- Dropdown appearing on mobile only -->
+  <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
   </button>
-  <ul class="dropdown-menu learn-more-dropdown">
-    <li><a href="#">About LINC</a></li>
-    <li><a href="#">About the Lions</a></li>
-    <li><a href="#">About the Technology</a></li>
-    <li role="separator" class="divider"></li>
-    <li><a href="#">Contact LINC</a></li>
-  </ul>
-</div>
-
-<!-- Search Button -->
-<div class="input-search hidden-xs hidden-sm">
-  <input type="text" class="form-control" placeholder="Search">
-</div>
-
-  <!-- Right Navigation -->
-  <div class="navbar-linc-right hidden-xs hidden-sm">
-    <a href="" class="navbar-linc-item navbar-linc-link">Join LINC</a>
-    <a href="" class="navbar-linc-item navbar-linc-link">Login</a>
-    <a href="" class="navbar-linc-item navbar-linc-link change-icon" id="donate">DONATE &nbsp<i class="far fa-heart"></i><i class="fas fa-heart"></i></a>
+  <!-- Dropdown appearing on wider screens -->
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <!-- Search Button -->
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    </form>
+    <!-- Learn more dropdown -->
+      <div class="nav-item dropdown mx-auto text-md-center">
+        <a class="nav-link dropdown-toggle learn-more-btn d-none d-xl-block" data-toggle="dropdown" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+          Learn More
+        </a>
+        <div class="dropdown-menu learn-more-dropdown" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">About LINC</a>
+          <a class="dropdown-item" href="#">About the Lions</a>
+          <a class="dropdown-item" href="#">About the Technology</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Contact LINC</a>
+        </div>
+      </div>
+    <!-- Right Navigation -->
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link navbar-linc-link" href="#">Join LINC</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link navbar-linc-link" href="#">LINC Login</a>
+      </li>
+    <!-- Donate button -->
+      <li class="nav-item">
+      <a class="nav-link" id="donate" href="#"> DONATE &nbsp<i class="far fa-heart"></i><i class="fas fa-heart"></i></a>
+      </li>
+    </ul>
   </div>
-
-  <!-- Dropdown appearing on mobile only -->
-  <div class="navbar-linc-item-mobile hidden-md hidden-lg">
-    <div class="dropdown">
-      <i class="fas fa-bars dropdown-toggle" data-toggle="dropdown" role="button"></i>
-      <ul class="dropdown-menu dropdown-menu-right navbar-linc-dropdown-menu">
-        <li><a href="#">About LINC</a></li>
-        <li><a href="#">About the lions</a></li>
-        <li><a href="#">About the technology</a></li>
-        <li><a href="#">Join LINC</a></li>
-        <li role="separator" class="divider"></li>
-        <li><a href="#">DONATE</a></li>
-      </ul>
-    </div>
-  </div>
-</div>
+</nav>

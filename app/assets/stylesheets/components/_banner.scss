@@ -9,7 +9,12 @@
   flex-direction: column;
   text-align: center;
   height: 80vh;
-  width: 100vw;
+  max-width: 100%;
+}
+
+.carousel-caption h1 {
+  font-family: $headers-font !important;
+  justify-content: center !important;
 }
 
 .carousel-fade .carousel-inner .item {
