@@ -1,0 +1,16 @@
+.btn-linc {
+  color: white;
+  padding: 9px 26px;
+  border-radius: 2px;
+  background: $linc-orange;
+  transition: background 0.3s ease;
+}
+.btn-linc:hover {
+  opacity: 1;
+  background: $linc-light-orange;
+  text-decoration: none;
+  color: white;
+}
+
+/* Build your own button classes ! */
+

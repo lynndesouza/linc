@@ -1,0 +1,30 @@
+
+#testimonial-indicators {
+   bottom: .5rem;
+}
+
+#testimonial-indicators li,
+#testimonial-indicators li.active {
+   width: 1rem;
+   height: 1rem;
+   margin-left: .5rem;
+   border-radius: 50%;
+   border: 0;
+   // background: black;
+}
+
+#testimonial-indicators li {
+   border-radius: 50%;
+   border: solid $linc-orange 1px;
+   margin-left: .5rem;
+   margin-right: .5rem;
+}
+
+#testimonial-indicators li.active {
+   background: $linc-orange;
+}
+
+
+#testimonial-box {
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
+}
