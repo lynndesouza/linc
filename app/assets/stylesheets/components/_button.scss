@@ -1,14 +1,15 @@
 .btn-linc {
   color: white;
-  padding: 9px 26px;
-  border-radius: 2px;
-  background: $linc-orange;
-  transition: background 0.3s ease;
+  padding: 9px 26px !important;
+  border-radius: 2px !important;
+  border: none !important;
+  background: $linc-orange !important;
+  transition: background 0.3s ease !important;
 }
 .btn-linc:hover {
-  opacity: 1;
-  background: $linc-light-orange;
-  text-decoration: none;
+  opacity: 1 !important;
+  background: $linc-light-orange !important;
+  text-decoration: none !important;
   color: white;
 }
 
