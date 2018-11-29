@@ -1,0 +1,16 @@
+#custom-box {
+  border: solid red 2px;
+}
+
+.box-link {
+  text-decoration: none !important;
+  h2 {
+    color: #444444 !important;
+  }
+  p {
+    color: #444444;
+  }
+  a:hover {
+    background-color: red !important;
+  }
+}
