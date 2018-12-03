@@ -1,8 +1,8 @@
 
 <nav class="navbar navbar-expand-lg">
-  <a class="navbar-brand" href="#">
-    <img src="assets/logo.png" alt="logo">
-  </a>
+  <%= link_to root_path, class: "navbar-brand" do %>
+    <%= image_tag("logo.png") %>
+  <% end %>
    <!-- Dropdown appearing on mobile only -->
   <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -19,24 +19,27 @@
           Learn More
         </a>
         <div class="dropdown-menu learn-more-dropdown" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">About LINC</a>
-          <a class="dropdown-item" href="#">About the Lions</a>
-          <a class="dropdown-item" href="#">About the Technology</a>
+          <%= link_to 'About LINC', page_path('about/linc'), class: 'dropdown-item' %>
+          <%= link_to 'About the Lions', page_path('about/lions'), class: 'dropdown-item' %>
+          <%= link_to 'About the Tech', page_path('about/tech'), class: 'dropdown-item' %>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Contact LINC</a>
+          <%= link_to 'Contact LINC', page_path('about/contact'), class: 'dropdown-item' %>
         </div>
       </div>
     <!-- Right Navigation -->
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a class="nav-link navbar-linc-link" href="#">Join LINC</a>
+        <%= link_to 'Join LINC', "https://linc.linclion.org", target: "_blank", class: 'nav-link navbar-linc-link' %>
       </li>
       <li class="nav-item">
-        <a class="nav-link navbar-linc-link" href="#">LINC Login</a>
+        <%= link_to 'LINC login', "https://linc.linclion.org", target: "_blank", class: 'nav-link navbar-linc-link' %>
       </li>
     <!-- Donate button -->
       <li class="nav-item">
-      <a class="nav-link" id="donate" href="#"> DONATE &nbsp<i class="far fa-heart"></i><i class="fas fa-heart"></i></a>
+      <%= link_to page_path('donate'), class: "nav-link", id:"donate" do %>
+         DONATE&nbsp; <i class="far fa-heart"></i><i class="fas fa-heart"></i>
+      <% end %>
+      <!-- <a class="nav-link" id="donate" href="#"> DONATE &nbsp<i class="far fa-heart"></i><i class="fas fa-heart"></i></a> -->
       </li>
     </ul>
   </div>

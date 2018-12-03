@@ -1,7 +1,7 @@
 
 .about {
   // background-color: $linc-light-gray;
-  background-color: $linc-light-gray !important;
+  background-color: white;
 }
 
 .mission {
@@ -13,6 +13,9 @@
 *::after {
   box-sizing: border-box; }
 
+html,body{
+  height: 100% !important;
+}
 
 html {
   line-height: 1.15;
