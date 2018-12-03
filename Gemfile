@@ -16,6 +16,7 @@ gem 'jquery-rails'
 gem "loofah", ">= 2.2.3"
 gem "rack", ">= 2.0.6"
 gem 'sassc-rails'
+gem 'high_voltage', '~> 3.1'
 gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
