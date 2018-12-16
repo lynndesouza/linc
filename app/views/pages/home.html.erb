@@ -1,7 +1,7 @@
-<%= render "shared/banner_carousel" %>
+<%= render "shared/banner_carousel_home" %>
 
 <div class="fdb-block about" data-block-type="contents" data-id="2" draggable="true">
-  <div class="container mission">
+  <div class="container">
     <div class="row justify-content-center">
       <div class="col col-md-8 text-center">
         <hr>
@@ -10,42 +10,28 @@
         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. <p><%= link_to 'Learn More >', page_path('about/linc') %></p>
       </div>
     </div>
-  </div>
-  <br>
-  <br>
-  <div class="container">
-    <div class="row pt-4">
-      <div class="col">
-        <img alt="image" class="img-fluid" src="assets/feature1.png">
-      </div>
-      <div class="col">
-        <img alt="image" class="img-fluid" src="assets/feature2.png">
-      </div>
-      <div class="col">
-        <img alt="image" class="img-fluid" src="assets/feature3.png">
-      </div>
-    </div>
-  </div>
-
-  <div class="container">
-    <div class="row text-center justify-content-center mt-5">
-      <div class="col-12 col-md-4 col-lg-3 m-md-auto">
+    <div class="row text-left mt-5">
+      <div class="col-12 col-sm-8 col-md-4 col-lg-3 m-sm-auto mr-md-auto ml-md-0">
+        <%= image_tag("feature1.png", class: 'img-fluid') %>
         <h3><strong>Lorem ipsum dolor sit amet</strong></h3>
-        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+        <p>Far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
       </div>
 
-      <div class="col-12 col-md-4 col-lg-3 m-md-auto pt-3 pt-md-0">
+      <div class="col-12 col-sm-8 col-md-4 col-lg-3 m-sm-auto pt-5 pt-md-0">
+        <%= image_tag("feature2.png", class: 'img-fluid') %>
         <h3><strong>Lorem ipsum dolor sit amet</strong></h3>
-        <p>Separated they live in Bookmarksgrove right at the coast, a large language ocean lorem ipsum lorem ipsum.</p>
+        <p> It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life.</p>
       </div>
 
-      <div class="col-12 col-md-4 col-lg-3 m-md-auto pt-3 pt-md-0">
+      <div class="col-12 col-sm-8 col-md-4 col-lg-3 m-sm-auto ml-md-auto mr-md-0 pt-5 pt-md-0">
+        <%= image_tag("feature3.png", class: 'img-fluid') %>
         <h3><strong>Lorem ipsum dolor sit amet</strong></h3>
-        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia</p>
+        <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen.</p>
       </div>
     </div>
   </div>
 </div>
+
 
 <!-- how it works infographic -->
 
@@ -57,9 +43,7 @@
         <h1>How It Works</h1>
          <hr>
         <p><a href="#">Learn More &gt;</a></p>
-        <img alt="image" class="img-fluid mt-5" style="width:100%;" src="assets/Picture1.png">
-        <!-- <div class="banner" style="background-image: url(<%= image_path("Picture1.png") %>);">
-        </div> -->
+        <%= image_tag("Picture1.png", class: 'img-fluid mt-5', width: "100%") %>
       </div>
     </div>
   </div>
@@ -88,7 +72,7 @@
         <div class="fdb-box" id="testimonial-box" style="background-color: white">
           <div class="row align-items-center justify-content-center">
             <div class="col-10 col-sm-6 col-md-4 col-lg-3 col-xl-2 m-auto">
-              <img alt="image" class="img-fluid" src="https://scontent.flhr6-1.fna.fbcdn.net/v/t1.0-1/p480x480/19145932_695592067309278_4372274759348336178_n.jpg?_nc_cat=107&_nc_ht=scontent.flhr6-1.fna&oh=e113c9019bcf59b578c19768ae123c32&oe=5CA7E044">
+              <%= image_tag("https://scontent.flhr6-1.fna.fbcdn.net/v/t1.0-1/p480x480/19145932_695592067309278_4372274759348336178_n.jpg?_nc_cat=107&_nc_ht=scontent.flhr6-1.fna&oh=e113c9019bcf59b578c19768ae123c32&oe=5CA7E044", class: 'img-fluid') %>
             </div> <!-- div class col10 containing image -->
             <div class="col-12 col-md-8 ml-auto mr-auto mt-4 mt-md-0">
               <p>
@@ -105,7 +89,7 @@
         <div class="fdb-box" id="testimonial-box" style="background-color: white;">
           <div class="row align-items-center justify-content-center">
             <div class="col-10 col-sm-6 col-md-4 col-lg-3 col-xl-2 m-auto">
-              <img alt="image" class="img-fluid" src="https://scontent.flhr6-1.fna.fbcdn.net/v/t1.0-1/p480x480/19145932_695592067309278_4372274759348336178_n.jpg?_nc_cat=107&_nc_ht=scontent.flhr6-1.fna&oh=e113c9019bcf59b578c19768ae123c32&oe=5CA7E044">
+               <%= image_tag("https://scontent.flhr6-1.fna.fbcdn.net/v/t1.0-1/p480x480/19145932_695592067309278_4372274759348336178_n.jpg?_nc_cat=107&_nc_ht=scontent.flhr6-1.fna&oh=e113c9019bcf59b578c19768ae123c32&oe=5CA7E044", class: 'img-fluid') %>
             </div> <!-- div class col10 containing image -->
             <div class="col-12 col-md-8 ml-auto mr-auto mt-4 mt-md-0">
               <p>
@@ -122,7 +106,7 @@
         <div class="fdb-box" id="testimonial-box" style="background-color: white;">
           <div class="row align-items-center justify-content-center">
             <div class="col-10 col-sm-6 col-md-4 col-lg-3 col-xl-2 m-auto">
-              <img alt="image" class="img-fluid" src="https://scontent.flhr6-1.fna.fbcdn.net/v/t1.0-1/p480x480/19145932_695592067309278_4372274759348336178_n.jpg?_nc_cat=107&_nc_ht=scontent.flhr6-1.fna&oh=e113c9019bcf59b578c19768ae123c32&oe=5CA7E044">
+               <%= image_tag("https://scontent.flhr6-1.fna.fbcdn.net/v/t1.0-1/p480x480/19145932_695592067309278_4372274759348336178_n.jpg?_nc_cat=107&_nc_ht=scontent.flhr6-1.fna&oh=e113c9019bcf59b578c19768ae123c32&oe=5CA7E044", class: 'img-fluid') %>
             </div> <!-- div class col10 containing image -->
             <div class="col-12 col-md-8 ml-auto mr-auto mt-4 mt-md-0">
               <p>
@@ -214,3 +198,23 @@
     </div>
   </div>
 </section>
+
+<section class="fdb-block team-6 fp-active">
+  <div class="container">
+    <div class="row text-center pics-center">
+
+      <div class="col-12 col-lg-4 col-md-4 col-sm-8 p-1">
+      <%= cl_image_tag("LINC photos/lioness.jpg", class: 'img-center') %>
+      </div>
+
+      <div class="col-12 col-lg-4 col-md-4 col-sm-8 p-1">
+        <%= cl_image_tag("LINC photos/Cub_snarl.jpg", class: 'img-center') %>
+      </div>
+
+      <div class="col-12 col-lg-4 col-md-4 col-sm-8 p-1">
+        <%= cl_image_tag("LINC photos/Yellow.jpg", class: 'img-center') %>
+      </div>
+    </div>
+  </div><!-- col-12 col-sm-8 col-md-4 -->
+</section>
+
