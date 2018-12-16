@@ -7,25 +7,30 @@
 .mission {
   // background-color: white !important;
 }
+
+
 // Froala design CSS
 *,
 *::before,
 *::after {
   box-sizing: border-box; }
 
-html,body{
-  height: 100% !important;
-}
+// html,body{
+//   height: 100% !important;
+// }
+
+
 
 html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
-  -ms-overflow-style: scrollbar;
+  // -ms-overflow-style: scrollbar;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
 @-ms-viewport {
-  width: device-width; }
+  width: device-width;
+}
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
@@ -93,7 +98,7 @@ small {
 
 sub,
 sup {
-  position: relative;
+  // position: relative;
   font-size: 75%;
   line-height: 0;
   vertical-align: baseline; }
@@ -830,14 +835,14 @@ h1, h2, h3, h4, h5, h6,
   margin-top: 0.3rem; }
 
 .fdb-block {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizelegibility;
+  // -webkit-font-smoothing: antialiased;
+  // -moz-osx-font-smoothing: grayscale;
+  // text-rendering: optimizelegibility;
   padding-top: 100px !important;
-  position: relative;
+  // position: relative;
   background-size: cover;
   background-position: center;
-  overflow: hidden;
+  // overflow: hidden;
   background-color: #FFFFFF; }
   .fdb-block.fdb-viewport {
     min-height: calc(100% - 2 * 100px); }
@@ -854,7 +859,8 @@ h1, h2, h3, h4, h5, h6,
     -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-    overflow: hidden; }
+    // overflow: hidden;
+  }
   .fdb-block .fdb-touch {
     border-top: solid 5px #528bff; }
   .fdb-block img {

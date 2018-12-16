@@ -5,13 +5,43 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
   flex-direction: column;
   text-align: center;
   height: 80vh;
   max-width: 100%;
 }
 
+.banner h1 {
+  color: white;
+  font-size: 130px;
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+  text-shadow:
+    -1px -1px 0 rgba(0, 0, 0, 0.4),
+    1px -1px 0 rgba(0, 0, 0, 0.4),
+    -1px 1px 0 rgba(0, 0, 0, 0.4),
+    1px 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+.about-caption.carousel-caption {
+  // padding: 20px;
+  border-radius: .5rem;
+  // bottom: 13rem; -------> not responsive
+    background-color: red;
+    width: 20rem;
+    padding: 60px 40px;
+  //   position: relative;
+  //   left: 64px;
+}
+
+
+
+
+
+
+
+
+// carousel
 .carousel-caption h1 {
   font-family: $headers-font !important;
   justify-content: center !important;
