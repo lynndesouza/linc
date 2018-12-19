@@ -14,7 +14,7 @@ function fixNavbarOnScroll() {
   const sticky = navbar.offsetTop;
 
   window.addEventListener("scroll", (event) => {
-    if (window.pageYOffset >= sticky) {
+    if (window.pageYOffset >= 1200) {
         navbar.classList.add('sticky');
       } else {
         navbar.classList.remove('sticky');
@@ -22,5 +22,17 @@ function fixNavbarOnScroll() {
   });
 }
 
-
 export { fixNavbarOnScroll };
+
+
+// function colFillLeftOnLarge() {
+//   const
+
+//   if ($(window).width() < 514) {
+//       $('#test').removeClass('col-fill-left');
+//   } else {
+//       $('#test').addClass('col-fill-left');
+//   }
+// };
+
+// export { colFillLeftOnLarge };

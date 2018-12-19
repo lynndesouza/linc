@@ -1,6 +1,8 @@
 
 <nav id="navbar-2" class="navbar navbar-scrollspy">
-
+<%= link_to root_path, class: "navbar-brand" do %>
+    <%= image_tag("logo.png") %>
+  <% end %>
   <ul class="nav mr-auto">
     <li class="nav-item">
       <%= link_to 'About the Lions', "#thelions", class: 'navbar-scrollspy-link' %>
