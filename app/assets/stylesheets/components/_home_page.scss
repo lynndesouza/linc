@@ -1,0 +1,79 @@
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+  .row-large {
+  height: 360px;
+  }
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .row-large {
+  height: 450px;
+  }
+}
+
+
+.lead-large {
+  padding: 50px 50px;
+}
+
+
+
+/* Jumbotron home styling ----------- */
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+  .col-fill {
+    width: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+  }
+  .block-background {
+    background-color: rgba(215,83,33, 0.8) !important;
+    margin-top: 10rem;
+  }
+  .lead-large {
+    color: white !important;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .col-fill {
+    width: 54%;
+    height: 75%;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+  }
+  .block-background {
+    background-color: rgba(215,83,33, 0.8) !important;
+    margin-top: 5rem;
+  }
+  .lead-large {
+      color: white !important;
+  }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .col-fill {
+    width: 100%;
+    height: 75%;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+  }
+  .lead-small {
+    color: white !important;
+    background-color: rgba(0,0,0,0.2);
+  }
+}
+
