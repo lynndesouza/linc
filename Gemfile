@@ -12,10 +12,12 @@ gem 'autoprefixer-rails'
 gem 'bootstrap', '~> 4.1.3'
 gem 'font-awesome-sass', '~> 5.0.9'
 
+gem 'nokogiri'
+gem 'rack', '~> 2.0.1'
+gem 'rspec'
 gem 'cloudinary'
 gem 'jquery-rails'
 gem "loofah", ">= 2.2.3"
-gem "rack", ">= 2.0.6"
 gem 'sassc-rails'
 gem 'high_voltage', '~> 3.1'
 gem 'simple_form'
