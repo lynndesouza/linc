@@ -23,6 +23,7 @@ gem 'high_voltage', '~> 3.1'
 gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
+gem 'rails_12factor', group: :production
 
 group :development do
   gem 'web-console', '>= 3.3.0'
