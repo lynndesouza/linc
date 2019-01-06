@@ -1,6 +1,6 @@
 import "bootstrap";
-// import {fixNavbarOnScroll} from "../components/navbar";
+import {fixNavbarOnScroll} from "../components/navbar";
 
-// fixNavbarOnScroll();
+fixNavbarOnScroll();
 
 
