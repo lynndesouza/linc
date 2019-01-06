@@ -1,4 +1,67 @@
-#AI-tech-photo {
-  height: 80vh;
-  width: 100%;
+
+#historic-range-img {
+  border: solid #D65229 3px;
 }
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+  #AI-tech-photo {
+  height: 55vh;
+  width: 100%;
+  }
+
+  #img-haar-tech {
+  height: 500px;
+  width: 540px;
+  }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  #AI-tech-photo {
+  height: 15vh;
+  width: 100%;
+  }
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  #AI-tech-photo {
+  height: 23vh;
+  width: 100%;
+  }
+}
+
+
+.row-border-bottom {
+  border-bottom: solid #d1d1d1 1px;
+}
+
+#banner-about {
+  height: 75vh;
+  h1 {
+    color: white;
+    font-size: 90px;
+    font-weight: bold;
+    text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+    text-shadow:
+    -1px -1px 0 rgba(0, 0, 0, 0.4),
+    1px -1px 0 rgba(0, 0, 0, 0.4),
+    -1px 1px 0 rgba(0, 0, 0, 0.4),
+    1px 1px 0 rgba(0, 0, 0, 0.4);
+  }
+}
+
+
+.parallax {
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
