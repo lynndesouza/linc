@@ -21,6 +21,7 @@ gem "loofah", ">= 2.2.3"
 gem 'sassc-rails'
 gem 'high_voltage', '~> 3.1'
 gem 'simple_form'
+gem 'uglifier'
 gem 'webpacker'
 gem 'rails_12factor', group: :production
 
