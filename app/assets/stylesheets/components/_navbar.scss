@@ -1,19 +1,9 @@
 /* Main navbar */
-.navbar-expand-lg {
-  min-height: 15vh !important;
-  padding: 0 30px 0 30px !important;
+#navbar-main {
+  background-color: white;
+  min-height: 8vh !important;
   transition: 0.5s background-color ease;
-  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
 }
-
-
-// @media (min-width: 992px) {
-//   .navbar-expand-lg .navbar-nav .nav-link .navbar-linc-link
-// {
-//   padding-right: 2rem !important;
-//   padding-left: 0.5rem !important;
-// }
-// }
 
 .navbar-brand {
   padding-right: 15px;
@@ -32,6 +22,33 @@
   color: $linc-orange !important;
   }
 }
+
+.navbar-join-link {
+  padding-right: 2rem !important;
+  color: $linc-orange;
+  &:hover {
+  color: #616668 !important;
+  text-decoration: underline overline !important;
+  }
+}
+
+
+
+#navbar-secondary {
+  background-color: transparent;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .mobile-nav-item {
+      background-color: red;
+    }
+}
+
+
+
+
+
 
 // <------- Learn more dropdown button css ------>
 .learn-more-btn {
