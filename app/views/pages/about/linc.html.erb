@@ -4,11 +4,11 @@
   </div>
 </div> -->
 
-<section class="fdb-block parallax" id="banner-about" style="background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1546783733/LINC%20photos/PJB_7148_1.jpg);">
+<section class="fdb-block parallax" id="banner-about" style="background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1544540938/LINC%20photos/Lioness_Meru_NP.jpg);">
   <div class="container align-items-center justify-content-end">
-    <div class="row justify-content-end text-center">
+    <div class="row justify-content-start text-center">
       <div class="col-12 col-md-10 col-lg-12 pt-lg-5">
-        <h1 class="pt-lg-5 text-right">ABOUT LINC</h1>
+        <h1 class="pt-lg-5 text-left">ABOUT LINC</h1>
       </div>
     </div>
   </div>
@@ -17,13 +17,12 @@
 <%= render "shared/scrollspy" %>
 
 
-<section class="fdb-block fp-active" data-block-type="contents" data-id="1" draggable="true" id="thelions">
+<section class="fdb-block pb-5 pt-5" data-block-type="contents" data-id="1" draggable="true" id="thelions">
   <div class="container">
 
-
     <div class="row">
-      <div class="col-12 col-md-6 col-lg-6 ml-md-auto text-center">
-        <h2 style="color:red">Need some sort of header here...</h2>
+      <div class="col-12 col-md-6 col-lg-6 ml-md-auto pt-5 text-center">
+        <h2>Increasingly fragmented lion populations</h2>
         <p class="mt-4">Over the last 20 years, the African lion has lost 42% of its habitat leaving the population increasingly fragmented.</p>
         <p class="">Understanding their movements between areas is critical to maintaining genetic diversity and it is therefore imperative that lion researchers and conservationists collaborate on a broader scale to improve connectivity between lion populations to increase their chances of survival. </p>
       </div>
@@ -33,7 +32,7 @@
     </div>
 
 
-    <div class="row align-items-center mt-5">
+    <div class="row align-items-center mt-1 mb-2">
       <div class="col-12 col-md-6 col-lg-6 mb-4 mb-md-0">
         <img alt="image" class="img-fluid" src="https://res.cloudinary.com/lynn-de-souza/image/upload/v1545473042/LINC%20photos/lincMapFront-1038x576.png">
       </div>
@@ -45,18 +44,19 @@
 </section>
 
 <!-- Quote over background -->
-<section class="fdb-block parallax bg-dark fdb-viewport" style="background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1544540708/LINC%20photos/PJB_1369.jpg);">
-  <div class="container align-items-center justify-content-center d-flex">
-    <div class="row justify-content-center text-center">
+<section class="fdb-block bg-dark" id="steph-quote-block">
+  <div class="container align-items-end justify-content-center d-flex">
+    <div class="row justify-content-end text-center">
       <div class="col-12 col-md-10 col-lg-8">
         <p class="lead">“Lions roam over such vast areas that no one research group can effectively study them across their entire range. Platforms like LINC enable us to work together and identify lions from photos more easily, thereby increasing the chances of picking up potential movement between zones.”</p>
+       <p class="text-right"><em>Stephanie Dolreny - Director of Science</em></p>
       </div>
     </div>
   </div>
 </section>
 
 <!-- A community of Lion Researchers -->
-<section class="fdb-block" id="howitworks">
+<section class="fdb-block pb-2" id="howitworks">
   <div class="container">
     <div class="row text-center justify-content-center">
       <div class="col-8">
@@ -153,32 +153,21 @@
   </div>
 </section>
 
-<!-- quote overlay -->
-<section class="fdb-block bg-dark fdb-viewport" style="background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1544540708/LINC%20photos/PJB_1369.jpg);">
-  <div class="container align-items-center justify-content-center d-flex">
-    <div class="row justify-content-center text-center">
-      <div class="col-12 col-md-10 col-lg-8">
-        <p class="lead">“LINC has the potential to revolutionize the way the scientific community reports and accesses data.”</p>
-      </div>
-    </div>
-  </div>
-</section>
-
 
 <!-- AI Tech -->
-<section class ="fdb-block fp-active" id="aitech">
+<section class ="fdb-block fp-active pb-5" id="aitech">
   <div class="container-fluid mb-5 pb-5">
       <div class="row justify-content-center">
         <div class="col-12 text-center">
           <h1>Artificial Intelligence Technology</h1>
-          <p> At the heart of LINC is a first-of-its-kind automated lion recognition tool. With the click of a button, eliminate hours of poring over photographs of whisker spots.
+          <p style="margin: 30px 0px 30px 0px;"> At the heart of LINC is a first-of-its-kind automated lion recognition tool. With the click of a button, eliminate hours of poring over photographs of whisker spots.
         </div>
       </div>
 
 
       <div class="row">
         <div class="col-12">
-          <img id="AI-tech-photo" src="https://res.cloudinary.com/lynn-de-souza/image/upload/v1546717259/LINC%20photos/HowLINCworks.png" alt="image">
+          <%= image_tag("HowLINCworks.png", id: 'AI-tech-photo') %>
         </div>
       </div>
       <div class="row">
@@ -199,7 +188,7 @@
   <div class="container-fluid pl-5 mt-5">
     <div class="row align-items-center">
       <div class="col-12 col-lg-7 col-md-8 mr-auto px-5 pt-5 pt-md-0">
-        <h2 style="color:red">Need some sort of header here...</h2>
+        <h2>First-of-its kind recognition algorithm</h2>
         <p>The computer vision (CV) system detects lion faces based on a HAAR classifier. These are then processed using a Convolutional Neural Network that develops classifiers for each individual lion.
         <br>
         <br>
@@ -212,7 +201,19 @@
   </div>
 </section>
 
-
+<!-- quote overlay -->
+<!-- Quote over background -->
+<section class="fdb-block bg-dark quote-block" id="nic-quote-block">
+  <div class="container align-items-end justify-content-center d-flex">
+    <div class="row justify-content-end text-center">
+      <div class="col-12 col-md-10 col-lg-8">
+        <p style="margin:100px 0px 0px 150px" class="lead">“ LINC has the potential to revolutionize the way the scientific community reports and accesses data. ”</p>
+        <br>
+       <p class="text-right"><em>Nic Elliot - Needs his title here</em></p>
+      </div>
+    </div>
+  </div>
+</section>
 
 <!-- quick look into linc -->
 <section class="fdb-block" id="aquicklook">
@@ -220,21 +221,21 @@
     <div class="row justify-content-center">
       <div class="col-12 text-center">
         <h1>A Quick Look into LINC</h1>
-        <p class="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
 
-        <img alt="image" class="img-fluid mt-5" id="screenshot" src="https://res.cloudinary.com/lynn-de-souza/image/upload/v1546715402/LINC%20photos/Screenshot_of_LINC_interface.png">
+
+        <img alt="image" class="img-fluid mt-5" id="screenshot" src="https://res.cloudinary.com/lynn-de-souza/image/upload/v1547457718/LINC%20photos/Screenshot_of_LINC_interface_1.png">
       </div>
     </div>
   </div>
 
-  <div class="row text-left pt-5 pl-5 pr-5 pb-5" style="background-color:rgba(215,83,33, 0.8);">
+  <div class="row text-left pt-5 pl-5 pr-5">
     <div class="col-12 offset-lg-1 col-lg-5 col-md-4">
       <div class="row">
         <div class="col-1">
           <img alt="image" class="img-fluid" src="https://cdn0.iconfinder.com/data/icons/general-15/64/paw_print-512.png">
         </div>
         <div class="col-11">
-          <p class="lead" style="color:white;">Each research organization has its own platform on LINC where multiple members of their team can access, load and manage their lion data </p>
+          <p class="lead">Each research organization has its own platform on LINC where multiple members of their team can access, load and manage their lion data </p>
         </div>
       </div>
     </div>
@@ -245,19 +246,12 @@
           <img alt="image" class="img-fluid" src="https://cdn0.iconfinder.com/data/icons/general-15/64/paw_print-512.png">
         </div>
         <div class="col-11">
-          <p class="lead" style="color:white;">Each organisation’s database will consist of lion individuals that they have recorded within their study area. Each lion will have its own profile detailing its “personal information” such as its given name, age, sex and photographs of it.</p>
+          <p class="lead">Each organisation’s database will consist of lion individuals that they have recorded within their study area. Each lion will have its own profile detailing its “personal information” such as its given name, age, sex and photographs of it.</p>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="container">
-     <div class="row justify-content-center">
-        <div class="col-12 text-left">
-          <img alt="image" class="img-fluid mt-5" src="https://res.cloudinary.com/lynn-de-souza/image/upload/v1546357639/LINC%20photos/database_layout.png">
-        </div>
-      </div>
-  </div>
 
   <div class="container mt-4 pt-4 pb-4">
     <div class="row justify-content-center">
@@ -265,7 +259,7 @@
         <h2>Who has access to this data?</h2>
         <p>Currently, LINC is restricted to lion researchers and conservation organizations within Africa. In time, we envision that trained citizen scientists would also be involved in contributing data.
         <br>
-        LINC gives the control to its users - you have the choice to share your data publicly (so that all other users can view it), or you can decide to keep it private (so that only users from your own organization can view the data you upload). View the user agreement <a href="#">here</a>.</p>
+        LINC gives the control to its users - you have the choice to share your data publicly (so that all other users can view it), or you can decide to keep it private (so that only users from your own organization can view the data you upload). View the user agreement <%= link_to 'here', page_path('about/userpolicy') %>.</p>
       </div>
     </div>
   </div>
@@ -285,7 +279,7 @@
 
     <div class="row text-left align-items-center row-border-bottom pt-3 pb-md-5">
       <div class="col-4 col-md-5 col-lg-5">
-        <img alt="image" class="img-fluid" src="https://res.cloudinary.com/lynn-de-souza/image/upload/v1546774942/LINC%20photos/MaleLion.png">
+        <img alt="image" class="img-fluid" src="https://res.cloudinary.com/lynn-de-souza/image/upload/v1547458244/LINC%20photos/MaleLion_for_CV_photos.png">
       </div>
 
       <div class="col-8 col-md-5 col-lg-7 m-md-auto text-center">
@@ -295,7 +289,7 @@
 
     <div class="row text-left align-items-center row-border-bottom pt-3 pb-md-3">
       <div class="col-4 col-md-5 col-lg-5">
-        <img alt="image" class="img-fluid" src="https://res.cloudinary.com/lynn-de-souza/image/upload/v1546775005/LINC%20photos/MaleLion2.png">
+        <img alt="image" class="img-fluid" src="https://res.cloudinary.com/lynn-de-souza/image/upload/v1547458243/LINC%20photos/EarEyeNose.png">
       </div>
 
       <div class="col-8 col-md-5 col-lg-7 m-md-auto text-center">
@@ -326,7 +320,7 @@
 
     <div class="row text-left align-items-center pt-3 pb-md-3 row-border-bottom">
       <div class="col-4 col-md-5 col-lg-5">
-        <img alt="image" class="img-fluid" src="https://res.cloudinary.com/lynn-de-souza/image/upload/v1546365445/LINC%20photos/Female_lion.png">
+        <img alt="image" class="img-fluid" src="https://res.cloudinary.com/lynn-de-souza/image/upload/v1547458527/LINC%20photos/MaleLion_1.png">
       </div>
 
       <div class="col-8 col-md-5 col-lg-7 m-md-auto text-center">

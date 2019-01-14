@@ -1,26 +1,23 @@
-<footer class="fdb-block footer-small bg-dark" data-block-type="footers" data-id="9">
+<footer class="fdb-block footer-small bg-dark pb-5" data-block-type="footers" data-id="9">
   <div class="container">
     <div class="row text-center align-items-center">
       <div class="col">
         <ul class="nav justify-content-center">
           <li class="nav-item">
-            <a class="nav-link active" href="https://www.froala.com">Home</a>
+            <%= link_to 'Home', root_path, class: 'nav-link active' %>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://www.froala.com">Features</a>
+            <%= link_to 'About', page_path('about/linc'), class: 'nav-link' %>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://www.froala.com">Privacy Policy</a>
+            <%= link_to 'Contact', page_path('about/contact'), class: 'nav-link' %>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://www.froala.com">Terms</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://www.froala.com">About</a>
+            <%= link_to 'Privacy Policy', page_path('about/linc'), class: 'nav-link' %>
           </li>
         </ul>
 
-        <p class="text-h5 mt-5">© 2013-2017 Froala</p>
+        <p class="text-h5 mt-5">© 2019 LINC</p>
       </div>
     </div>
   </div>

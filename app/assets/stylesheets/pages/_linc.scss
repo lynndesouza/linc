@@ -6,7 +6,7 @@
 /* Desktops and laptops ----------- */
 @media only screen  and (min-width : 1224px) {
   #AI-tech-photo {
-  height: 55vh;
+  height: 50vh;
   width: 100%;
   }
 
@@ -14,13 +14,18 @@
   height: 500px;
   width: 540px;
   }
-}
 
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-  #AI-tech-photo {
-  height: 15vh;
-  width: 100%;
+  #steph-quote-block {
+  background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1547461678/LINC%20photos/LINC_photos_PJB_1369_1.jpg);
+  }
+
+  #steph-quote-block p {
+    margin-left: 150px;
+  }
+
+  #nic-quote-block {
+    background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1547462849/LINC%20photos/LINC_photos_PJB_7148.jpg);
+    background-position: 50% 75%;
   }
 }
 
@@ -31,7 +36,36 @@
   height: 23vh;
   width: 100%;
   }
+
+  #steph-quote-block {
+  background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1547461678/LINC%20photos/LINC_photos_PJB_1369_1.jpg);
+  background-repeat:no-repeat;
+  background-position: 36%;
+  }
+
+  #steph-quote-block p {
+    margin-left: 150px;
+  }
+
+  #banner-about h1 {
+    justify-content: center;
+  }
 }
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  #AI-tech-photo {
+  height: 15vh;
+  width: 100%;
+  }
+  #steph-quote-block {
+  background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1547469270/LINC%20photos/LINC_photos_Focus.jpg);
+  background-repeat:no-repeat;
+  background-position: 50% 100%;
+  }
+}
+
 
 
 .row-border-bottom {
@@ -64,4 +98,9 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.quote-block {
+  height: 80vh !important;
+}
+
 
