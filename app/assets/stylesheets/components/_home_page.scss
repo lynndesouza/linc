@@ -16,7 +16,7 @@
 
 
 .lead-large {
-  padding: 50px 50px;
+  padding: 20px 50px 60px 50px;
 }
 
 
@@ -36,7 +36,8 @@
   }
   .block-background {
     background-color: rgba(215,83,33, 0.8) !important;
-    margin-top: 10rem;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
   }
   .lead-large {
     color: white !important;
@@ -57,7 +58,7 @@
   top: 25rem;
   left: 8rem;
   }
-  #protect {
+  #connect {
   font-size: 4rem;
   font-weight: bold;
   color: white;
@@ -99,7 +100,7 @@
   top: 15rem;
   left: 4rem;
   }
-  #protect {
+  #connect {
   font-size: 2.5rem;
   font-weight: bold;
   color: white;
@@ -121,8 +122,12 @@
   }
   .lead-small {
     color: white !important;
-    background-color: rgba(0,0,0,0.2);
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 550px;
   }
+
   #photograph {
   font-size: 3rem;
   font-weight: bold;
@@ -139,7 +144,7 @@
   top: 24rem;
   left: 7rem;
   }
-  #protect {
+  #connect {
   font-size: 3rem;
   font-weight: bold;
   color: white;
