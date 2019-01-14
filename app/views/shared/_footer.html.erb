@@ -1,7 +1,11 @@
-<footer class="fdb-block footer-small bg-dark pb-5" data-block-type="footers" data-id="9">
+<footer class="fdb-block footer-small bg-dark pb-5">
   <div class="container">
     <div class="row text-center align-items-center">
-      <div class="col">
+      <div class="col-12 col-lg-2 text-lg-left">
+        <%= image_tag("logo.png") %>
+      </div>
+
+      <div class="col mt-4 mt-lg-0 text-center">
         <ul class="nav justify-content-center">
           <li class="nav-item">
             <%= link_to 'Home', root_path, class: 'nav-link active' %>
@@ -16,8 +20,18 @@
             <%= link_to 'Privacy Policy', page_path('about/linc'), class: 'nav-link' %>
           </li>
         </ul>
+      </div>
 
-        <p class="text-h5 mt-5">© 2019 LINC</p>
+      <div class="col-12 col-lg-2 mt-4 mt-lg-0 text-lg-right linc-orange">
+        <a href="#" class="mx-2"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+        <a href="#" class="mx-2"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+        <a href="#" class="mx-2"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+      </div>
+    </div>
+
+    <div class="row mt-4">
+      <div class="col text-center linc-grey">
+        © 2019 LINC. All Rights Reserved
       </div>
     </div>
   </div>
