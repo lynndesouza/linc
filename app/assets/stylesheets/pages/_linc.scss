@@ -27,6 +27,9 @@
     background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1547462849/LINC%20photos/LINC_photos_PJB_7148.jpg);
     background-position: 50% 75%;
   }
+  #nic-quote-block p {
+    margin: 120px 0px 0px 180px;
+  }
 }
 
 
@@ -47,6 +50,8 @@
     margin-left: 150px;
   }
 
+
+
   #banner-about h1 {
     justify-content: center;
   }
@@ -64,6 +69,13 @@
   background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1547469270/LINC%20photos/LINC_photos_Focus.jpg);
   background-repeat:no-repeat;
   background-position: 50% 100%;
+  }
+  #nic-quote-block {
+    background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1547545162/LINC%20photos/LINC_photos_LINC_photos_PJB_7148.jpg);
+    background-position: 100%;
+  }
+  #nic-quote-block p {
+    margin-top: 150px;
   }
 }
 
@@ -105,4 +117,7 @@
   height: 80vh !important;
 }
 
+.quote-box {
+  background-color: rgba(0,0,0,0.3);
+}
 

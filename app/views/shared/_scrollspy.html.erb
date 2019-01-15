@@ -3,7 +3,7 @@
 <%= link_to root_path, class: "navbar-brand" do %>
     <%= image_tag("logo.png") %>
   <% end %>
-  <ul class="nav mr-auto">
+  <ul class="nav mr-lg-auto">
     <li class="nav-item">
       <%= link_to 'Background', "#thelions", class: 'navbar-scrollspy-link' %>
     </li>
@@ -17,6 +17,13 @@
       <%= link_to 'A Quick Look', "#aquicklook", class: 'navbar-scrollspy-link' %>
     </li>
   </ul>
+  <ul class="navbar-nav ml-lg-auto">
+      <li class="nav-item">
+        <%= link_to page_path('donate'), class: "nav-link", id:"donate" do %>
+           DONATE&nbsp; <i class="far fa-heart"></i><i class="fas fa-heart"></i>
+        <% end %>
+      </li>
+  </ul>
 </nav>
 
 <div data-spy="scroll" data-target="#navbar-2" data-offset="0">
@@ -25,5 +32,8 @@
   <h4 id="mdo">@mdo</h4>
   <p>...</p> -->
 </div>
+
+
+
 
 

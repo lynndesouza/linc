@@ -1,0 +1,23 @@
+Searching 152 files for "banner-about"
+
+/Users/lynndesouza/code/lynndesouza/linc/app/assets/stylesheets/pages/_linc.scss:
+   53
+   54
+   55:   #banner-about h1 {
+   56      justify-content: center;
+   57    }
+   ..
+   85  }
+   86
+   87: #banner-about {
+   88    height: 70vh;
+   89    h1 {
+
+/Users/lynndesouza/code/lynndesouza/linc/app/views/pages/about/linc.html.erb:
+    5  </div> -->
+    6
+    7: <section class="fdb-block parallax" id="banner-about" style="background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1544540938/LINC%20photos/Lioness_Meru_NP.jpg);">
+    8    <div class="container align-items-center justify-content-end">
+    9      <div class="row justify-content-start text-center">
+
+3 matches across 2 files
