@@ -1,5 +1,5 @@
 #banner-contact {
-  background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1544540476/LINC%20photos/Mara_Masai_20151211_Nina_29.jpg);
+  background-image: url(/assets/contact/MaraLion.jpg);
   background-position: 50% 0%;
   height: 85vh;
   h1 {
@@ -19,7 +19,7 @@
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
  #banner-contact {
-  background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1544540476/LINC%20photos/Mara_Masai_20151211_Nina_29.jpg);
-  background-position-x: 26%;
+  background-image: url(/assets/contact/MaraLion.jpg);
+  background-position-x: 33%;
  }
 }

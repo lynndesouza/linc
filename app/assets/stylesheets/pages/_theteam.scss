@@ -26,7 +26,7 @@
 
   #banner-team {
   height: 90vh;
-  background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1547470934/LINC%20photos/LINC_photos_Lion_Rock-2_1.jpg);
+  background-image: url(/assets/team/lion_rock.jpg);
   background-position: 100% 0%;
   h1 {
     color: white;
@@ -47,7 +47,7 @@
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
   #banner-team {
   height: 90vh;
-  background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1547470934/LINC%20photos/LINC_photos_Lion_Rock-2_1.jpg);
+  background-image: url(/assets/team/lion_rock.jpg);
   background-position: 95% 0%;
   h1 {
     color: white;
@@ -68,7 +68,7 @@
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   #banner-team {
   height: 60vh;
-  background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1547470934/LINC%20photos/LINC_photos_Lion_Rock-2_1.jpg);
+  background-image: url(/assets/team/lion_rock.jpg);
   background-position: 90% 0%;
   h1 {
     color: white;
