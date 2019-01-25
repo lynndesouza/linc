@@ -3,24 +3,26 @@
   border: solid #D65229 3px;
 }
 
-/* Desktops and laptops ----------- */
-@media only screen  and (min-width : 1224px) {
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  #steph-quote-block {
+  background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1548347055/LINC%20website/About/quotesteph.jpg);
+  height: 40vh;
+  }
+
+  #steph-quote-block p {
+    margin-left: 30%;
+  }
+
   #AI-tech-photo {
-  height: 45vh;
+  height: 37vh;
   width: 100%;
   }
 
   #img-haar-tech {
-  height: 500px;
-  width: 540px;
-  }
-
-  #steph-quote-block {
-  background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1548347055/LINC%20website/About/quotesteph.jpg);
-  }
-
-  #steph-quote-block p {
-    margin-left: 150px;
+  height: 100%;
+  width: 90%;
   }
 
   #nic-quote-block {
@@ -28,13 +30,44 @@
     background-position: 50% 75%;
   }
   #nic-quote-block p {
-    margin: 120px 0px 0px 180px;
+    margin: 25% 0px 0px 50%;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #AI-tech-photo {
+  height: 27vh;
+  width: 100%;
+  }
+
+  #img-haar-tech {
+  height: 100%;
+  width: 90%;
+  }
+
+  #steph-quote-block {
+  background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1548347055/LINC%20website/About/quotesteph.jpg);
+  height: 40vh;
+  background-position-x: 10%;
+  }
+
+  #steph-quote-block p {
+    margin-left: 30%;
+  }
+
+  #nic-quote-block {
+    background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1548347054/LINC%20website/About/quotenic.jpg);
+    background-position: 25% 75%;
+  }
+  #nic-quote-block p {
+    margin: 25% 0px 0px 50%;
   }
 }
 
 
-/* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
   #AI-tech-photo {
   height: 23vh;
   width: 100%;
@@ -59,8 +92,8 @@
 
 
 
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
   #AI-tech-photo {
   height: 15vh;
   width: 100%;
@@ -78,6 +111,27 @@
     margin-top: 150px;
   }
 }
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  #AI-tech-photo {
+  height: 15vh;
+  width: 100%;
+  }
+  #steph-quote-block {
+  background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1548347049/LINC%20website/About/Focus.jpg);
+  background-repeat:no-repeat;
+  background-position: 50% 100%;
+  }
+  #nic-quote-block {
+    background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1548347048/LINC%20website/About/7148-min.jpg);
+    background-position: 100%;
+  }
+  #nic-quote-block p {
+    margin-top: 150px;
+  }
+}
+
 
 
 
@@ -100,6 +154,10 @@
     1px 1px 0 rgba(0, 0, 0, 0.4);
   }
 }
+
+
+
+
 
 
 .parallax {

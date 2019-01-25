@@ -1,46 +1,31 @@
-#custom-box {
+// style for photograph, identify, connect
 
+.nopadding-img1 {
+   padding-right: 0 !important;
 }
 
-.box-link {
-  text-decoration: none !important;
-  h2 {
-    color: #444444 !important;
-  }
-  p {
-    color: #444444;
-  }
-  a:hover {
-    background-color: red !important;
-  }
+.nopadding-img2 {
+  padding: 0 !important;
 }
 
-.pics-center {
+.nopadding-img3 {
+  padding-left: 0 !important;
+}
+
+.row .flex-row {
   display: flex;
 }
 
-.img-center {
-  // flex: auto;
-  width: 100%;
+.col .flex-col {
+  flex: 33.33%;
+}
+
+.img-block {
   height: 100%;
-  vertical-align: middle;
-  z-index: -1;
+  width: 100%;
 }
 
-.container-img {
-  position: relative;
-  text-align: center;
-  color: white;
-}
 
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 
-.nopadding {
-   padding: 0 !important;
-   margin: 0 !important;
-}
+
+
