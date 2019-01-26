@@ -8,15 +8,15 @@
 @media (min-width: 1200px) {
   #steph-quote-block {
   background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1548347055/LINC%20website/About/quotesteph.jpg);
-  height: 40vh;
+  height: 100%;
   }
 
   #steph-quote-block p {
-    margin-left: 30%;
+    margin-left: 35%;
   }
 
   #AI-tech-photo {
-  height: 37vh;
+  height: 100%;
   width: 100%;
   }
 
@@ -28,16 +28,17 @@
   #nic-quote-block {
     background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1548347054/LINC%20website/About/quotenic.jpg);
     background-position: 50% 75%;
+    height: 100%;
   }
   #nic-quote-block p {
-    margin: 25% 0px 0px 50%;
+    margin: 100px 0px 0px 550px;
   }
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199.98px) {
   #AI-tech-photo {
-  height: 27vh;
+  height: 100%;
   width: 100%;
   }
 
@@ -48,7 +49,7 @@
 
   #steph-quote-block {
   background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1548347055/LINC%20website/About/quotesteph.jpg);
-  height: 40vh;
+  height: 100%;
   background-position-x: 10%;
   }
 
@@ -59,17 +60,21 @@
   #nic-quote-block {
     background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1548347054/LINC%20website/About/quotenic.jpg);
     background-position: 25% 75%;
+    height: 100%;
   }
   #nic-quote-block p {
-    margin: 25% 0px 0px 50%;
+    margin: 50px 0px 0px 500px;
   }
 }
 
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991.98px) {
+  #historic-range-img {
+    margin-top: 8rem;
+  }
   #AI-tech-photo {
-  height: 23vh;
+  height: 100%;
   width: 100%;
   }
 
@@ -83,10 +88,13 @@
     margin-left: 150px;
   }
 
-
-
-  #banner-about h1 {
-    justify-content: center;
+  #nic-quote-block {
+    background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1548347054/LINC%20website/About/quotenic.jpg);
+    background-position: 25% 75%;
+    height: 100%;
+  }
+  #nic-quote-block p {
+    margin: 0px 0px 0px 250px;
   }
 }
 
@@ -95,7 +103,7 @@
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) {
   #AI-tech-photo {
-  height: 15vh;
+  height: 100%;
   width: 100%;
   }
   #steph-quote-block {
@@ -108,14 +116,14 @@
     background-position: 100%;
   }
   #nic-quote-block p {
-    margin-top: 150px;
+    margin-top: 25px;
   }
 }
 
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
   #AI-tech-photo {
-  height: 15vh;
+  height: 100%;
   width: 100%;
   }
   #steph-quote-block {
@@ -128,7 +136,7 @@
     background-position: 100%;
   }
   #nic-quote-block p {
-    margin-top: 150px;
+    margin-top: 25px;
   }
 }
 
@@ -141,7 +149,7 @@
 }
 
 #banner-about {
-  height: 75vh;
+  height: 100%;
   h1 {
     color: white;
     font-size: 90px;
