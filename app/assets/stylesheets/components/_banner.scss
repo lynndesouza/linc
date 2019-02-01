@@ -1,0 +1,43 @@
+.banner {
+  color: white;
+  text-align: center;
+  height: calc(100vh - 70px);
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#hero-text {
+  font-weight: bolder;
+}
+
+@media only screen and (min-device-width : 1445px) and (max-device-width : 2560px) {
+  #hero-text {
+    font-size: 8rem;
+  }
+}
+
+@media only screen  and (min-width : 1024px) and (max-device-width : 1440px) {
+  #hero-text {
+    font-size: 4rem;
+  }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  #hero-text {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 425px) {
+  #hero-text {
+    font-size: 2rem;
+  }
+  .banner {
+    background-position-x: 100%;
+  }
+}
+
+
