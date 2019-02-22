@@ -1,0 +1,79 @@
+.wrapper {
+  display: flex;
+  // justify-content: space-between;
+}
+
+.sidepic {
+  width: 40%;
+  height: 110vh; // experiment with this value, try changing to 110vh
+  min-height: auto;
+  overflow: auto;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1550860210/LINC%20website/Support/LINC_website_Support_NDJP0139-min.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-position-x: 100%;
+}
+
+.main {
+  width: 60%;
+  height: 270vh;
+  min-height: auto;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+}
+
+.main,
+.sidebar {
+  border-radius: 10px;
+  padding: 15px;
+}
+
+#navbar-support {
+  background-color: rgba(215,83,33, 0.9);
+  transition: 0.5s background-color ease;
+  padding: 10px 30px 10px 30px;
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+  margin-bottom: 50px;
+}
+
+#support-header {
+  margin-top: 25%;
+  text-align: center;
+}
+
+#support-para {
+  text-align: center;
+}
+
+.support-with-funds {
+  margin-top: 50%;
+  padding: 30px;
+  h4 {
+    text-align: center;
+    padding-top: 30px;
+  }
+}
+
+.support-the-tech {
+  padding: 30px;
+  h4 {
+    text-align: center;
+    padding-top: 30px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
