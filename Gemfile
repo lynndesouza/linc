@@ -16,6 +16,7 @@ gem 'nokogiri'
 gem 'rack', '~> 2.0.1'
 gem 'rspec'
 gem 'cloudinary'
+gem 'carrierwave'
 gem 'jquery-rails'
 gem "loofah", ">= 2.2.3"
 gem 'sassc-rails'
