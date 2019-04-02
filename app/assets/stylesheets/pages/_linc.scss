@@ -5,14 +5,16 @@
 
 
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
+@media (min-width: 1281px) {
   #steph-quote-block {
-  background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1548347055/LINC%20website/About/quotesteph.jpg);
-  height: 100%;
+  background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1554222387/LINC%20website/Home/Mara_Masai_20171108_Tom_Bruce_20.jpg);
+  height: 63vh;
+  background-position-y: 35%;
   }
 
-  #steph-quote-block p {
-    margin-left: 35%;
+  .quote-box {
+  position: relative;
+  top: 25%;
   }
 
   #AI-tech-photo {
@@ -26,17 +28,20 @@
   }
 
   #nic-quote-block {
-    background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1548347054/LINC%20website/About/quotenic.jpg);
-    background-position: 50% 75%;
-    height: 100%;
+    background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1554228582/LINC%20website/Home/Mara_20171231_137.jpg);
+    background-position: 100%;
+    height: 75vh;
   }
+
   #nic-quote-block p {
-    margin: 100px 0px 0px 550px;
+  position:relative;
+  left: 20%;
+  top: 100%;
   }
 }
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) and (max-width: 1199.98px) {
+@media (min-width: 1025px) and (max-width: 1280px) {
   #AI-tech-photo {
   height: 100%;
   width: 100%;
@@ -48,28 +53,37 @@
   }
 
   #steph-quote-block {
-  background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1548347055/LINC%20website/About/quotesteph.jpg);
-  height: 100%;
-  background-position-x: 10%;
+  background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1554222387/LINC%20website/Home/Mara_Masai_20171108_Tom_Bruce_20.jpg);
+  height: 63vh;
+  background-position-y: 35%;
   }
 
-  #steph-quote-block p {
-    margin-left: 30%;
+  .quote-box {
+  position: relative;
+  top: 25%;
   }
+
 
   #nic-quote-block {
-    background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1548347054/LINC%20website/About/quotenic.jpg);
-    background-position: 25% 75%;
-    height: 100%;
+    background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1554228582/LINC%20website/Home/Mara_20171231_137.jpg);
+    height: 75vh;
+    background-position-x: 100%;
   }
+
   #nic-quote-block p {
-    margin: 50px 0px 0px 500px;
+  position:relative;
+  left: 20%;
+  top: 80%;
   }
 }
 
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) and (max-width: 991.98px) {
+@media (min-width: 768px) and (max-width: 1024px) {
+  #banner-about {
+    background-position-x: 10%;
+  }
+
   #historic-range-img {
     margin-top: 8rem;
   }
@@ -79,17 +93,14 @@
   }
 
   #steph-quote-block {
-  background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1548347055/LINC%20website/About/quotesteph.jpg);
-  background-repeat:no-repeat;
-  background-position: 36%;
+  background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1554222387/LINC%20website/Home/Mara_Masai_20171108_Tom_Bruce_20.jpg);
+  background-repeat: no-repeat;
+  background-position: 65% 30%;
   }
 
-  #steph-quote-block p {
-    margin-left: 150px;
-  }
 
   #nic-quote-block {
-    background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1548347054/LINC%20website/About/quotenic.jpg);
+    background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1554228582/LINC%20website/Home/Mara_20171231_137.jpg);
     background-position: 25% 75%;
     height: 100%;
   }
@@ -101,16 +112,22 @@
 
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) and (max-width: 767.98px) {
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  #banner-about {
+    background-position-x: 10%;
+  }
+
   #AI-tech-photo {
   height: 100%;
   width: 100%;
   }
+
   #steph-quote-block {
-  background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1548347049/LINC%20website/About/Focus.jpg);
-  background-repeat:no-repeat;
-  background-position: 50% 100%;
+  background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1554222387/LINC%20website/Home/Mara_Masai_20171108_Tom_Bruce_20.jpg);
+  background-repeat: no-repeat;
   }
+
+
   #nic-quote-block {
     background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1548347048/LINC%20website/About/7148-min.jpg);
     background-position: 100%;
@@ -118,18 +135,51 @@
   #nic-quote-block p {
     margin-top: 25px;
   }
+
 }
 
 // Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) {
+@media (min-width: 481px) and (max-width: 767px) {
+  #AI-tech-photo {
+  height: 100%;
+  width: 100%;
+  }
+
+  #steph-quote-block {
+  background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1554222387/LINC%20website/Home/Mara_Masai_20171108_Tom_Bruce_20.jpg);
+  background-repeat:no-repeat;
+  background-position: 50% 100%;
+  }
+
+  #nic-quote-block {
+    background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1548347048/LINC%20website/About/7148-min.jpg);
+    background-position: 100%;
+  }
+  #nic-quote-block p {
+    margin-top: 25px;
+  }
+
+ #banner-about {
+    background-position-x: 10%;
+    h1 {
+      font-size: 60px !important;
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
   #AI-tech-photo {
   height: 100%;
   width: 100%;
   }
   #steph-quote-block {
-  background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1548347049/LINC%20website/About/Focus.jpg);
+  background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1554222387/LINC%20website/Home/Mara_Masai_20171108_Tom_Bruce_20.jpg);
   background-repeat:no-repeat;
-  background-position: 50% 100%;
+  background-position-x: 80%;
+  }
+
+   .quote-box {
+  background-color: rgba(0,0,0,0.2)
   }
   #nic-quote-block {
     background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1548347048/LINC%20website/About/7148-min.jpg);
@@ -138,10 +188,14 @@
   #nic-quote-block p {
     margin-top: 25px;
   }
+
+  #banner-about {
+    background-position-x: 10%;
+    h1 {
+      font-size: 60px !important;
+    }
+  }
 }
-
-
-
 
 
 .row-border-bottom {
@@ -164,26 +218,12 @@
 }
 
 
-
-
-
-
-// .parallax {
-//   /* Set a specific height */
-//   min-height: 500px;
-
-//   /* Create the parallax scrolling effect */
-//   background-attachment: fixed !important;
-//   background-position: center;
-//   background-repeat: no-repeat;
-//   background-size: cover;
-// }
-
 // .quote-block {
 //   height: 80vh !important;
 // }
 
-// .quote-box {
-//   background-color: rgba(0,0,0,0.3);
-// }
+.quote-box {
+  color: black !important;
+  padding: 10px;
+}
 
