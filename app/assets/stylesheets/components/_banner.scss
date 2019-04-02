@@ -1,43 +1,112 @@
 .banner {
   color: white;
-  text-align: center;
-  height: calc(100vh - 70px);
+  text-align: left;
+
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: cover !important;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
 }
 
 #hero-text {
   font-weight: bolder;
+  margin-left: 35px;
 }
 
-@media only screen and (min-device-width : 1445px) and (max-device-width : 2560px) {
+
+@media (min-width: 1540px) {
   #hero-text {
     font-size: 8rem;
   }
-}
-
-@media only screen  and (min-width : 1024px) and (max-device-width : 1440px) {
-  #hero-text {
-    font-size: 4rem;
+  .banner {
+    height: calc(100vh - 70px);
+    background-position-y: 10%;
   }
+
 }
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-  #hero-text {
-    font-size: 3rem;
-  }
-}
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 425px) {
+@media (min-width: 1025px) and (max-width: 1540px) {
   #hero-text {
-    font-size: 2rem;
+    font-size: 3.5rem;
   }
   .banner {
-    background-position-x: 100%;
+    background-position-y: 10%;
+    height: calc(100vh - 70px);
   }
 }
 
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
 
+@media (min-width: 768px) and (max-width: 1024px) {
+ #hero-text {
+    font-size: 2.5rem;
+    position: relative;
+    top: 100px;
+  }
+  .banner {
+    background-position-x: 44%;
+    height: calc(100vh - 70px);
+  }
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  #hero-text {
+    font-size: 2.5rem;
+    position: relative;
+    top: 100px;
+  }
+  .banner {
+    background-position-x: 44%;
+    height: calc(100vh - 70px);
+  }
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  #hero-text {
+    font-size: 2.5rem;
+    position: relative;
+    top: 100px;
+  }
+  .banner {
+    background-position-x: 50%;
+    height: calc(100vh - 70px);
+  }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+ #hero-text {
+    font-size: 2.25rem;
+    position: relative;
+    top: 27vh;
+  }
+  .banner {
+    background-position-x: 52%;
+    height: calc(100vh - 70px);
+  }
+
+}
