@@ -15,6 +15,36 @@
   }
 }
 
+input#contact_name {
+  width: 100%;
+  padding: 5px;
+}
+
+input#contact_email {
+  width: 100%;
+  padding: 5px;
+}
+
+textarea#contact_message {
+  width: 100%;
+  padding: 5px;
+}
+
+label {
+  font-family: $body-font;
+}
+
+#thank-you-block {
+  background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1554290243/LINC%20website/Contact/3348.jpg);
+  height: calc(100vh - 70px);
+  background-position-y: 30%;
+}
+
+#thank-you-message {
+  font-family: $body-font;
+  font-size: 40px;
+  color: black;
+}
 
 @media only screen and (min-device-width : 1445px) and (max-device-width : 2560px) {
   #banner-contact {
