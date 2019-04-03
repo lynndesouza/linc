@@ -1,7 +1,7 @@
 #banner-contact {
-  background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1548349035/LINC%20website/Contact/MaraLion-min.jpg);
-  background-position: 50% 0%;
-  height: 75vh;
+  background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1554296779/LINC%20website/Contact/Mara_Masai_20151211_Nina_29_-1-min.jpg);
+  background-position-y: 30%;
+  height: calc(100vh - 123px);
   h1 {
     color: white;
     font-size: 90px;
@@ -36,7 +36,7 @@ label {
 
 #thank-you-block {
   background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1554290243/LINC%20website/Contact/3348.jpg);
-  height: calc(100vh - 70px);
+  height: calc(100vh - 123px);
   background-position-y: 30%;
 }
 
@@ -48,15 +48,15 @@ label {
 
 @media only screen and (min-device-width : 1445px) and (max-device-width : 2560px) {
   #banner-contact {
-  background-position-y: 25%;
-  height: 60vh;
+  // background-position-y: 25%;
+  // height: 60vh;
   }
 }
 
 @media only screen  and (min-width : 1024px) and (max-device-width : 1440px) {
   #banner-contact {
-  background-position-y: 40%;
-  height: 85vh;
+  // background-position-y: 40%;
+  // height: 85vh;
   }
 }
 
