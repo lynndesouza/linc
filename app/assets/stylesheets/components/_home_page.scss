@@ -1,53 +1,42 @@
-
-/* Desktops and laptops ----------- */
-@media only screen  and (min-width : 1224px) {
-  .row-large {
-  height: 360px;
-  }
+#call-to-action-header {
+  color: white;
+  font-size: 35px;
+  margin-bottom: 2rem;
 }
-
-
-/* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-  .row-large {
-  height: 450px;
-  }
-}
-
 
 .lead-large {
   padding: 20px 50px 60px 50px;
 }
 
-
-
-  #photograph {
+#photograph {
   font-weight: bold;
   color: white;
   position: absolute;
   top: 80%;
-  left: 15%;
-  }
-  #identify {
+  left: 18%;
+}
+
+#identify {
   font-weight: bold;
   color: white;
   position: absolute;
   top: 80%;
   left: 25%;
-  }
-  #connect {
+}
+
+#connect {
   font-weight: bold;
   color: white;
   position: absolute;
   top: 80%;
   left: 25%;
-  }
+}
 
 
 /* Block Background  ----------- */
 
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
+@media (min-width: 1281px) {
   .col-fill {
     width: 50%;
     position: absolute;
@@ -55,9 +44,7 @@
     top: 0;
     bottom: 0;
     background-size: cover;
-    background-position: center;
-    background-position-y: 40%;
-    background-position-x: 65%;
+    background-position-y: 42%;
 
   }
   .block-background {
@@ -82,7 +69,7 @@
 
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) and (max-width: 1199.98px) {
+@media (min-width: 1024px) and (max-width: 1280px) {
   .col-fill {
     width: 50%;
     position: absolute;
@@ -91,8 +78,7 @@
     bottom: 0;
     background-size: cover;
     background-position: center;
-    background-position-y: 18%;
-    background-position-x: 65%;
+    background-position-y: 40%;
 
   }
   .block-background {
@@ -107,31 +93,42 @@
   #photograph {
   font-size: 3rem;
   }
+
   #identify {
   font-size: 3rem;
   }
+
   #connect {
   font-size: 3rem;
+  left: 30%;
   }
 }
 
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) and (max-width: 991.98px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .col-fill {
-    width: 100%;
-    height: 100%;
+    width: 40%;
     position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
     background-size: cover;
     background-position: center;
-    background-position-y: 50%;
   }
-  #whatislincH1 {
-    margin-top: 6.3rem;
+
+  .block-background {
+    background-color: rgba(215,83,33, 0.8) !important;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
   }
-  .lead-large {
-      color: white !important;
+
+  p.lead.lead-large {
+    color: white !important;
+    padding: 0px 10px !important;
+    font-size: 1rem;
   }
+
   #photograph {
     font-size: 2.5rem;
   }
@@ -145,41 +142,52 @@
 
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) and (max-width: 767.98px) {
+@media (min-width: 481px) and (max-width: 767px) {
+  .banner {
+    background-position-y: 70%;
+  }
+
   .col-fill {
-    width: 100%;
-    height: 100%;
+    width: 50%;
     position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
     background-size: cover;
     background-position: center;
   }
-  #whatislincH1 {
-    margin-top: 3rem;
-  }
-  .lead-small {
-    color: white !important;
-    padding-top: 10px;
-    padding-right: 10px;
-    padding-left: 10px;
-    height: 100%;
+
+  .block-background {
+    background-color: rgba(215,83,33, 0.8) !important;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
   }
 
+  p.lead.lead-large {
+    color: white !important;
+    padding: 0px 10px !important;
+    font-size: 1rem;
+  }
+
+
   #photograph {
-  font-size: 1rem;
+  font-size: 2rem;
   left: 25%;
   }
   #identify {
-  font-size: 1rem;
+  font-size: 2rem;
+  left: 30%;
   }
   #connect {
-  font-size: 1rem;
+  font-size: 2rem;
+  left: 30%;
   }
 
 }
 
 
 // Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) {
+@media (min-width: 320px) and (max-width: 480px) {
    .col-fill {
     width: 100%;
     height: 100%;
@@ -197,22 +205,43 @@
     padding-right: 10px;
     padding-left: 10px;
     height: 100%;
+    background-color: rgba(0,0,0,0.2);
   }
+
   #photograph {
-  font-size: 1rem;
-  left: 30%;
+  font-size: 1.5rem;
+  left: 20%;
   }
+
   #identify {
-  font-size: 1rem;
+  font-size: 1.5rem;
   }
+
   #connect {
-  font-size: 1rem;
+  font-size: 1.5rem;
+  }
+
+  #call-to-action-header {
+    font-size:25px;
   }
  }
 
 
 
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+  .row-large {
+  height: 360px;
+  }
+}
 
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .row-large {
+  height: 450px;
+  }
+}
 
 
 
