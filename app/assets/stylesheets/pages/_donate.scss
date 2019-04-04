@@ -5,7 +5,7 @@
 
 .sidepic {
   width: 40%;
-  height: 110vh; // experiment with this value, try changing to 110vh
+  height: calc(112vh - 123px); // experiment with this value, try changing to 110vh
   min-height: auto;
   overflow: auto;
   position: -webkit-sticky;
@@ -15,12 +15,12 @@
   background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1550860210/LINC%20website/Support/LINC_website_Support_NDJP0139-min.jpg);
   background-position: center center;
   background-size: cover;
-  background-position-x: 100%;
+  background-position-x: 90%;
 }
 
 .main {
   width: 60%;
-  height: 225vh;
+  height: 165vh;
   min-height: auto;
   overflow-y: scroll;
   display: flex;
@@ -68,6 +68,97 @@
 }
 
 
+#support-buttons {
+    display: flex;
+  }
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+#support-mobile {
+  display: none;
+}
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+#support-mobile {
+  display: none;
+}
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+#support-mobile {
+  display: none;
+}
+#sidepic {
+  background-position-x: 75%;
+  width: 50%;
+}
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+#support-mobile {
+  display: none;
+}
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+#support-mobile {
+  display: none;
+}
+
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .sidepic {
+    display: none !important;
+  }
+  .wrapper {
+    display: none;
+  }
+
+  #support-buttons {
+    display: flex;
+  }
+
+  #support-header {
+    margin-top: 10%;
+  }
+
+}
 
 
 

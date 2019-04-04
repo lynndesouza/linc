@@ -9,8 +9,8 @@
       The development of LINC has been made possible thanks to the generous support of many individuals and foundations. We would like to thank you for enabling us to revolutionize broad scale lion conservation. It takes a community to conserve lions.
     </p>
       <p id="support-buttons" class="mx-auto mt-4 mb-4">
-        <%= link_to 'Support with Funds', "#funds", class: 'btn-linc mr-3' %>
-         <%= link_to 'Support the Tech', "#tech", class: 'btn-linc ml-3' %>
+        <%= link_to 'Support with Funds', "#funds", class: 'btn-linc mr-3 text-center' %>
+         <%= link_to 'Support the Tech', "#tech", class: 'btn-linc ml-3 text-center' %>
       </p>
 
       <div class="support-with-funds">
@@ -23,14 +23,43 @@
             Ways to donate:
             <li><%= link_to 'Credit Card', "https://secure.acceptiva.com/?cst=3bbd26", target: "_blank" %></li>
             <li>PayPal</li>
-            <li>Cheque: please print <%= link_to 'this form', "#", class: '' %> and mail it with a cheque payable to lion guardians.</li>
+            <li>Cheque: please print <%= link_to 'this form', "#", class: '' %> and mail it with a cheque payable to Lion Guardians.</li>
           </p>
         </div>
 
         <div class="support-the-tech">
           <h4 id="tech"> SUPPORT THE TECH</h4>
-           <p>Join us.<br> <br> We are always looking to work with like minded people or possible collaborators. If you are working with Neural networks and perception problems, can code in php, Ruby or python, or are working with lions yourself and would like to help, please <%= link_to 'contact us.', page_path('about/contact'), class: '' %> </p>
-
+           <p>Join us.<br> <br> We are always looking to work with like minded people or possible collaborators. If you are working with Neural networks and perception problems, can code in php, Ruby or python, or are working with lions yourself and would like to help, please <%= link_to 'contact us.', new_contact_path, class: '' %> </p>
         </div>
   </div>
 </div>
+
+<div class="container" id="support-mobile">
+    <h1 id="support-header"> SUPPORT US AND HELP SAVE THE LIONS</h1>
+    <p id="support-para">
+      The development of LINC has been made possible thanks to the generous support of many individuals and foundations. We would like to thank you for enabling us to revolutionize broad scale lion conservation. It takes a community to conserve lions.
+    </p>
+      <p id="support-buttons" class="mx-auto mt-4 mb-4">
+        <%= link_to 'Support with Funds', "#funds-mobile", class: 'btn-linc mr-3 text-center' %>
+         <%= link_to 'Support the Tech', "#tech-mobile", class: 'btn-linc ml-3 text-center' %>
+      </p>
+
+      <div class="support-with-funds">
+        <h4 id="funds-mobile">SUPPORT WITH FUNDS</h4>
+         <p><br>You can support LINC through our U.S. fiscal sponsor, Wildlife Guardians.
+          <br>
+          <span style="font-size: 12px;">* Wildlife Guardians is a 501(c)3 not-for-profit organization so your contribution will be tax deductible to the fullest extent allowable by U.S. law. One hundred percent of your donation will support direct LINC activities because Wildlife Guardians does not charge a fee or deduct any administrative expenses.</span></p>
+
+          <p>
+            Ways to donate:
+            <li><%= link_to 'Credit Card', "https://secure.acceptiva.com/?cst=3bbd26", target: "_blank" %></li>
+            <li>PayPal</li>
+            <li>Cheque: please print <%= link_to 'this form', "#", class: '' %> and mail it with a cheque payable to Lion Guardians.</li>
+          </p>
+        </div>
+
+        <div class="support-the-tech">
+          <h4 id="tech-mobile"> SUPPORT THE TECH</h4>
+           <p>Join us.<br> <br> We are always looking to work with like minded people or possible collaborators. If you are working with Neural networks and perception problems, can code in php, Ruby or python, or are working with lions yourself and would like to help, please <%= link_to 'contact us.', new_contact_path, class: '' %> </p>
+        </div>
+  </div>

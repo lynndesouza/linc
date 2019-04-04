@@ -63,13 +63,16 @@ label {
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
    #banner-contact {
   background-position-y: 50%;
-  height: 85vh;
+  height: calc(100vh - 123px);
   }
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 425px) {
-   #banner-contact {
-  background-position: 50% 0%;
-  height: 85vh;
+  #banner-contact {
+  background-position: 63% 0%;
+  height: calc(100vh - 307px);
+    h1 {
+      font-size: 50px !important;
+    }
   }
 }
