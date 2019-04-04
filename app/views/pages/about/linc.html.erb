@@ -24,7 +24,7 @@
       <div class="col-12 col-md-6 col-lg-6 ml-md-auto text-center">
         <h2>Increasingly fragmented lion populations</h2>
         <p style="font-size: 1rem;" class="mt-4">Over the last 20 years, the African lion has lost approximately 42% of its habitat leaving the population increasingly fragmented.</p>
-        <p style="font-size: 1rem;" class="">Understanding lion movements between areas is critical for conservation decision-making and maintaining genetic diversity. Therefore, it is imperative that researchers and conservationists collaborate on a broader scale to exchange knowledge with the aim to improve connectivity and the sustainability of lion populations across their remaining range. </p>
+        <p style="font-size: 1rem;" class="">The Lion Identification Network of Collaborators-LINC-is an innovative open source platform that allows for collaboration in research and conservation of African lions across international and inter-institutional boundaries. The accurate monitoring of lion populations and better understanding of the connectivity between them is a critical to maintaining the genetic viability of increasingly isolated populations. </p>
       </div>
       <div class="col-12 col-md-6 col-lg-6 mb-4 mb-md-0">
         <img alt="image" class="img-fluid ml-lg-4 mr-lg-auto" id="historic-range-img" src="https://res.cloudinary.com/lynn-de-souza/image/upload/v1554202877/LINC%20website/About/RangeMap_withCitation.png">
@@ -189,16 +189,28 @@
       </div>
     </div>
 
+    <!-- innovative AI tech -->
+
   <div class="container-fluid pl-5 mt-5">
     <div class="row align-items-center">
-      <div class="col-12 col-lg-7 col-md-8 mr-auto px-5 pt-5 pt-md-0">
-        <h2>First-of-its kind recognition algorithm</h2>
-        <p>The computer vision (CV) system detects lion faces based on a Haar classifier. These are then processed using a Convolutional Neural Network that develops classifiers for each individual lion.
+      <div class="col-12 col-lg-5 col-md-8 px-5 pt-5 pt-md-0 order-xs-1">
+        <h2>Innovative AI algorithm</h2>
+        <p>The LINC Lion identification algorithms use two methods to match individual lions:
         <br>
         <br>
-        The facial recognition software currently uses a combination of OpenCV and the Caffe deep learning framework to develop the classifiers it is currently running on a CUDA based NVIDA GPU. LINC is an <%= link_to 'open source', "https://en.wikipedia.org/wiki/Open-source_software", target: "_blank"  %> software to support collaboration where developers and citizen scientists around the world can work together to improve and scale up the artificial intelligence aspects of the system.</p>
+        The first uses the lion’s whisker patterns, comparing them between individuals as if matching constellations in the night sky. This AI method is based on a modified chamfer technique. It is implemented in combination with an affine transform and iterative closest point matching to sum a mean average score of the difference between the pattern alignment of the two whisker spot images.</p>
       </div>
-      <div class="col-10 col-lg-5 col-sm-6 col-md-4 col-lg-3 m-auto m-md-0">
+      <div class="col-10 col-lg-6 col-sm-6 col-md-4 m-auto m-md-0 order-xs-2">
+        <img alt="image" class="img-fluid" id="" src="https://res.cloudinary.com/lynn-de-souza/image/upload/v1554373709/LINC%20website/About/whisker_algorithm.png">
+      </div>
+    </div>
+    <div class="row pt-5">
+      <div class="col-12 col-lg-6 col-md-8 px-5 pt-lg-5 pt-md-0 order-xs-4">
+        <p class="">The second method looks at the feature groups of individual lion faces, akin to how we identify faces through reduction; even if there is a mud splatter on a friend’s face we recognize the shape of their eyes. This method leverages a fine-tuned Deep Convolutional Neural Network with Residual Inception Blocks (“Inception ResNet v2”) pretrained on ImageNet and fine-tuned on the normalized LINC datasets labelled by conservationists. This network architecture is computationally efficient as it exhibits a high accuracy to parameter count ratio and it converges quickly on the LINC dataset when fine-tuned on a pre-trained ImageNet model.</p>
+        <p>Both these AI methodologies in conjunction with the continued integration of human-centered development of the user interface, allow researchers to handle and access previously unmanageably large datasets. The LINC project is an open source model allowing a sustained development that benefits the whole conservation community.</p>
+        <p><%= link_to 'Learn More about the technology >', " http://innateengineering.com/linc.html", target: "_blank" %></p>
+      </div>
+      <div class="col-10 col-lg-5 col-sm-6 col-md-4 m-auto m-md-0 order-xs-3">
         <img alt="image" class="img-fluid" id="img-haar-tech" src="https://res.cloudinary.com/lynn-de-souza/image/upload/v1548347048/LINC%20website/About/tech.jpg">
       </div>
     </div>

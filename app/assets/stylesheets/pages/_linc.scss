@@ -1,3 +1,20 @@
+#banner-about {
+ height: calc(100vh - 191px);
+#banner-about {
+    height: calc(100vh - 191px);
+  }
+  h1 {
+    color: white;
+    font-size: 90px;
+    font-weight: bold;
+    text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+    text-shadow:
+    -1px -1px 0 rgba(0, 0, 0, 0.4),
+    1px -1px 0 rgba(0, 0, 0, 0.4),
+    -1px 1px 0 rgba(0, 0, 0, 0.4),
+    1px 1px 0 rgba(0, 0, 0, 0.4);
+  }
+}
 
 #historic-range-img {
   border: solid #D65229 3px;
@@ -26,7 +43,7 @@
 @media (min-width: 1281px) {
   #steph-quote-block {
   background-position-y: 35%;
-  height: 75vh;
+  height: calc(100vh - 123px);
   }
 
   .lead.quote-box-steph {
@@ -42,13 +59,13 @@
   }
 
   #img-haar-tech {
-  height: 100%;
-  width: 90%;
+  width: 100%;
   }
 
   #nic-quote-block {
     height: 83vh;
   }
+
 }
 
 // Large devices (desktops, 992px and up)
@@ -59,8 +76,7 @@
   }
 
   #img-haar-tech {
-  height: 100%;
-  width: 90%;
+  width: 100%;
   }
 
   #steph-quote-block {
@@ -85,6 +101,8 @@
     font-size: 1.25rem !important;
     margin-top: 40px;
   }
+
+
 }
 
 
@@ -92,6 +110,7 @@
 @media (min-width: 768px) and (max-width: 1024px) {
   #banner-about {
     background-position-x: 10%;
+    height: calc(100vh - 235px);
   }
 
   #historic-range-img {
@@ -120,6 +139,7 @@
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   #banner-about {
     background-position-x: 10%;
+
   }
 
   #AI-tech-photo {
@@ -159,6 +179,7 @@
 
  #banner-about {
     background-position-x: 10%;
+    height: calc(100vh - 395px);
     h1 {
       font-size: 60px !important;
     }
@@ -189,8 +210,9 @@
 
   #banner-about {
     background-position-x: 10%;
+     height: calc(100vh - 395px);
     h1 {
-      font-size: 60px !important;
+      font-size: 50px !important;
     }
   }
 }
@@ -200,20 +222,6 @@
   border-bottom: solid #d1d1d1 1px;
 }
 
-#banner-about {
-  height: 75vh;
-  h1 {
-    color: white;
-    font-size: 90px;
-    font-weight: bold;
-    text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
-    text-shadow:
-    -1px -1px 0 rgba(0, 0, 0, 0.4),
-    1px -1px 0 rgba(0, 0, 0, 0.4),
-    -1px 1px 0 rgba(0, 0, 0, 0.4),
-    1px 1px 0 rgba(0, 0, 0, 0.4);
-  }
-}
 
 
 // .quote-block {

@@ -12,7 +12,6 @@
   font-weight: bolder;
   margin-left: 45px;
   color: #1b1919;
-  letter-spacing: 1px;
 }
 
 
@@ -49,13 +48,13 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
  #hero-text {
-    font-size: 2.5rem;
+    font-size: 3rem;
     position: relative;
-    top: 100px;
+    top: 280px;
   }
   .banner {
     background-position-x: 44%;
-    height: calc(100vh - 70px);
+    height: calc(100vh - 123px);
   }
 }
 
@@ -102,13 +101,16 @@
 @media (min-width: 320px) and (max-width: 480px) {
 
  #hero-text {
-    font-size: 2.25rem;
+    font-size: 1.75rem;
     position: relative;
-    top: 27vh;
+    top: 18vh;
+    margin-left: 25px;
+    color: white;
   }
+
   .banner {
-    background-position-x: 52%;
-    height: calc(100vh - 70px);
+    background-position-x: 25%;
+    height: calc(100vh - 307.5px);
   }
 
 }

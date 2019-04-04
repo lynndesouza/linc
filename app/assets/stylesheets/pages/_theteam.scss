@@ -12,17 +12,19 @@
   width: 190px;
 }
 
+#banner-team {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 @media only screen and (min-device-width : 1445px) and (max-device-width : 2560px) {
-   #banner-team {
-  height: 60vh;
-  background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1548347117/LINC%20website/Team/lion_rock.jpg);
-  background-position: 50% 20%;
-  background-repeat: no-repeat;
+  #banner-team {
+  height: calc(100vh - 123px);
+  background-position-y: 95%;
   h1 {
     color: white;
     padding-top: 30px;
-    font-size: 8rem;
+    font-size: 145px;
     font-weight: bold;
     text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
     text-shadow:
@@ -36,12 +38,11 @@
 
 @media only screen  and (min-width : 1024px) and (max-device-width : 1440px) {
   #banner-team {
-  height: 85vh;
-  background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1548347117/LINC%20website/Team/lion_rock.jpg);
-  background-position: 100% 100%;
+  background-position-y: 95%;
+  height: calc(100vh - 123px);
   h1 {
     color: white;
-    font-size: 6rem;
+    font-size: 90px;
     font-weight: bold;
     text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
     text-shadow:
@@ -55,13 +56,11 @@
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
   #banner-team {
-  height: 90vh;
-  background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1548347117/LINC%20website/Team/lion_rock.jpg);
   background-position: 86% 86%;
+  height: calc(100vh - 123px);
   h1 {
     color: white;
-    padding-top: 100px;
-    font-size: 4rem;
+    font-size: 90px;
     font-weight: bold;
     text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
     text-shadow:
@@ -75,13 +74,11 @@
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 425px) {
    #banner-team {
-  height: 60vh;
-  background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1548347117/LINC%20website/Team/lion_rock.jpg);
-  background-position: 90% 75%;
+  background-position-x: 70%;
+  height: calc(100vh - 307px);
   h1 {
     color: white;
-    padding-top: 30px;
-    font-size: 2rem;
+    font-size: 50px;
     font-weight: bold;
     text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
     text-shadow:
