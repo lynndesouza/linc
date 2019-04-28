@@ -3,15 +3,23 @@
 
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: cover !important;
+  height: calc(100vh - 123px);
+  background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1556450809/LINC%20website/Home/HOMEPAGE2-1-min.jpg);
   display: flex;
   align-items: center;
   justify-content: start;
 }
 
 #hero-text {
-  font-weight: bolder;
-  margin-left: 45px;
-  color: #1b1919;
+    margin-left: 45px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+    text-shadow:
+    -1px -1px 0 rgba(0, 0, 0, 0.4),
+    1px -1px 0 rgba(0, 0, 0, 0.4),
+    -1px 1px 0 rgba(0, 0, 0, 0.4),
+    1px 1px 0 rgba(0, 0, 0, 0.4);
 }
 
 
@@ -21,7 +29,7 @@
   }
   .banner {
     height: calc(100vh - 123px);
-    background-position-y: 70%;
+    background-position-y: 80%;
   }
 
 }
@@ -36,8 +44,7 @@
     font-size: 3.5rem;
   }
   .banner {
-    background-position-y: 70%;
-    height: calc(100vh - 123px);
+    background-position-y: 80%;
   }
 }
 
@@ -48,13 +55,14 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
  #hero-text {
-    font-size: 3rem;
+    font-size: 3.5rem;
     position: relative;
-    top: 280px;
+    bottom: 300px;
   }
   .banner {
-    background-position-x: 44%;
     height: calc(100vh - 123px);
+    background-position-x: 65%;
+    background-position-y: 70%;
   }
 }
 
@@ -103,13 +111,13 @@
  #hero-text {
     font-size: 1.75rem;
     position: relative;
-    top: 18vh;
+    bottom: 16vh;
     margin-left: 25px;
     color: white;
   }
 
   .banner {
-    background-position-x: 25%;
+    background-position-x: 66%;
     height: calc(100vh - 307.5px);
   }
 
