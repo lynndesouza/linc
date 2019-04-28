@@ -35,7 +35,8 @@
 }
 
 #nic-quote-block {
-    background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1554228582/LINC%20website/Home/Mara_20171231_137.jpg);
+    background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1554290243/LINC%20website/Contact/3348.jpg);
+    background-position-y: 25%;
   }
 
 
@@ -64,6 +65,14 @@
 
   #nic-quote-block {
     height: 83vh;
+  }
+
+  .lead.quote-box-nic {
+    position: relative;
+    top: 75%;
+    left: -30%;
+    font-size: 2rem !important;
+    margin-top: 20px;
   }
 
 }
@@ -97,12 +106,10 @@
 
   .lead.quote-box-nic {
     position: relative;
-    top: 30%;
     font-size: 1.25rem !important;
-    margin-top: 40px;
+    margin-top: 100px;
+    margin-right: 50px;
   }
-
-
 }
 
 
@@ -127,7 +134,6 @@
 
   .lead.quote-box-nic {
     position: relative;
-    top: 30%;
     font-size: 1.25rem !important;
     margin-top: 40px;
   }
@@ -227,6 +233,3 @@
 // .quote-block {
 //   height: 80vh !important;
 // }
-
-
-
