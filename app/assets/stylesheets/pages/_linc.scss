@@ -44,12 +44,13 @@
 @media (min-width: 1281px) {
   #steph-quote-block {
   background-position-y: 35%;
+  background-position-x: 70%;
   height: calc(100vh - 123px);
   }
 
   .lead.quote-box-steph {
   position: relative;
-  top: 22%;
+  top: 90%;
   font-size: 1.25rem !important;
   margin-top: 20px;
   }
@@ -70,7 +71,7 @@
   .lead.quote-box-nic {
     position: relative;
     top: 75%;
-    left: -30%;
+    left: -11%;
     font-size: 2rem !important;
     margin-top: 20px;
   }
@@ -129,13 +130,24 @@
   }
 
   #steph-quote-block {
+  height: 32vh;
   background-position: 65% 30%;
+  }
+
+  .lead.quote-box-steph {
+    position: relative;
+    top: 15%;
+  }
+
+  #nic-quote-block {
+    height: 32vh;
+    background-position-x: 16%;
   }
 
   .lead.quote-box-nic {
     position: relative;
     font-size: 1.25rem !important;
-    margin-top: 40px;
+    margin-top: 65px;
   }
 }
 
@@ -155,6 +167,33 @@
 
   #nic-quote-block p {
     margin-top: 25px;
+  }
+
+  .lead.quote-box-steph {
+    font-size: 1rem !important;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  #banner-about {
+    background-position-x: 10%;
+
+  }
+
+  #AI-tech-photo {
+  height: 100%;
+  width: 100%;
+  }
+
+  #nic-quote-block p {
+    margin-top: 25px;
+  }
+
+  .lead.quote-box-steph {
+    font-size: 1rem !important;
+    position: relative;
+    top: 0%;
   }
 
 }
