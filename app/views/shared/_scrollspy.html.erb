@@ -1,9 +1,9 @@
 
-<nav id="navbar-2" class="navbar navbar-scrollspy">
+<nav id="navbar-2" class="navbar navbar-scrollspy fixed-bottom">
 <%= link_to root_path, class: "navbar-brand logo-brand" do %>
     <%= image_tag("https://res.cloudinary.com/lynn-de-souza/image/upload/v1548347049/LINC%20website/About/LINC_full_white.png") %>
   <% end %>
-  <ul class="nav mr-lg-auto mx-md-auto">
+  <ul class="nav">
     <li class="nav-item">
       <%= link_to 'Background', "#thelions", class: 'navbar-scrollspy-link' %>
     </li>
@@ -16,13 +16,6 @@
     <li class="nav-item">
       <%= link_to 'A Quick Look', "#aquicklook", class: 'navbar-scrollspy-link' %>
     </li>
-  </ul>
-  <ul class="navbar-nav">
-      <li class="nav-item">
-        <%= link_to page_path('donate'), class: "nav-link", id:"donate" do %>
-           SUPPORT&nbsp;
-        <% end %>
-      </li>
   </ul>
 </nav>
 

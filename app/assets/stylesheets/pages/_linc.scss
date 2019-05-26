@@ -1,8 +1,5 @@
 #banner-about {
- height: calc(100vh - 191px);
-#banner-about {
-    height: calc(100vh - 191px);
-  }
+ height: calc(100vh - 178px);
   h1 {
     color: white;
     font-size: 90px;
@@ -45,7 +42,8 @@
   #steph-quote-block {
   background-position-y: 35%;
   background-position-x: 70%;
-  height: calc(100vh - 123px);
+  height: 70vh;
+  // height: calc(100vh - 123px);
   }
 
   .lead.quote-box-steph {
@@ -130,7 +128,7 @@
   }
 
   #steph-quote-block {
-  height: 32vh;
+  height: 70vh;
   background-position: 65% 30%;
   }
 
@@ -206,6 +204,7 @@
   }
 
   #steph-quote-block {
+  height: 70vh;
   background-repeat:no-repeat;
   background-position: 50% 100%;
   }
@@ -237,6 +236,7 @@
   width: 100%;
   }
   #steph-quote-block {
+  height: 70vh;
   background-repeat:no-repeat;
   background-position-x: 80%;
   }

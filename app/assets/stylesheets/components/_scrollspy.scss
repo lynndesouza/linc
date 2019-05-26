@@ -3,6 +3,9 @@
   transition: 0.5s background-color ease;
   padding: 10px 30px 10px 30px;
   box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+  height: 60px;
+
+
 }
 
 .logo-brand img {
@@ -22,19 +25,19 @@ a.navbar-scrollspy-link {
   }
 }
 
-.sticky {
-  position: sticky !important;
-  z-index: 999;
-  top: 0 !important;
-  background-color: #373331 !important;
-  width: 100%;
-  a {
-    color: white !important;
-    &:hover {
-      color: $linc-orange !important;
-    }
-  }
-}
+// .sticky {
+//   position: sticky !important;
+//   z-index: 999;
+//   top: 0 !important;
+//   background-color: #373331 !important;
+//   width: 100%;
+//   a {
+//     color: white !important;
+//     &:hover {
+//       color: $linc-orange !important;
+//     }
+//   }
+// }
 
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {

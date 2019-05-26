@@ -1,8 +1,9 @@
 //= require rails-ujs
-//= require_tree .
-//= require jquery3
+//= require_tree
+//= require jquery
 //= require jquery_ujs
 //= require popper
 //= require bootstrap
 
-import 'bootstrap';
+
+

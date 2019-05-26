@@ -1,7 +1,7 @@
 /* Main navbar */
 #navbar-main {
   background-color: white;
-  min-height: 5vh !important;
+  height: 60px;
   transition: 0.5s background-color ease;
 }
 
@@ -12,6 +12,11 @@
 .navbar-toggler {
   margin-top: 30px;
 }
+
+.navbar-brand .navbar-nav .nav-item {
+    display: block;
+  }
+
 
 /* Navbar links */
 .navbar-linc-link {
@@ -34,18 +39,19 @@
 
 
 #navbar-secondary {
-  background-color: transparent;
+  background-color: white;
+  height: 50px;
 }
 
 .fixed-top-2 {
-    margin-top: 70px;
+    margin-top: 60px;
 }
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    .mobile-nav-item {
-      background-color: red;
-    }
+  .dual-collapse2 {
+    color: red;
+  }
 }
 
 
