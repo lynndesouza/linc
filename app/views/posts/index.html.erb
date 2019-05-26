@@ -1,5 +1,16 @@
 <%= render 'shared/nav' %>
 
+<section class="fdb-block" id="banner-blog" style="background-image: url(https://res.cloudinary.com/lynn-de-souza/image/upload/v1554229735/LINC%20website/About/NDJP6773-2.jpg);">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-12 col-lg-12">
+        <h1 class="text-right">Our Blog</h1>
+      </div>
+    </div>
+  </div>
+</section>
+
+<h1>hello test header</h1>
 <% @posts.each do |post| %>
      <h1><%= link_to post.title, post %></h1>
      <p><%= post.content %></p>
