@@ -20,6 +20,7 @@ gem 'cloudinary'
 gem 'carrierwave'
 gem 'devise'
 gem 'activeadmin'
+gem 'active_skin'
 gem 'jquery-rails'
 gem "loofah", ">= 2.2.3"
 gem 'sassc-rails'
