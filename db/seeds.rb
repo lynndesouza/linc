@@ -9,4 +9,6 @@
 Category.create(name: 'Category 1')
 Category.create(name: 'Category 2')
 Category.create(name: 'Category 3')
-AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password') if Rails.env.development?
+# AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password') if Rails.env.development?
+
+AdminUser.create!(email: 'admin@linc.com', password: 'password', password_confirmation: 'password')
