@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   devise_for :users
   root to: 'pages#home'
 
-  delete "posts/:id", to: "posts#destroy", as: :delete
+  # delete "posts/:id", to: "posts#destroy", as: :delete
   resources :posts
   resources :contacts, only: [:new, :create]
 
