@@ -44,6 +44,7 @@ class PostsController < ApplicationController
     redirect_to posts_path, notice: "Post destroyed!"
   end
 
+
   private
 
   def post_params
