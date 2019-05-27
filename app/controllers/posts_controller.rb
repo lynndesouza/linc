@@ -1,6 +1,5 @@
 class PostsController < ApplicationController
 
-  before_action :authenticate, only: [:admin, :new, :create, :edit, :update, :destroy]
   before_action :find_post, only: [:show, :edit, :update, :destroy]
 
   def index
@@ -43,18 +42,6 @@ class PostsController < ApplicationController
   def destroy
     @post.destroy
     redirect_to posts_path, notice: "Post destroyed!"
-  end
-
-  def admin
-    redirect_to root_path if authenticate
-  end
-
-  protected
-
-  def authenticate
-    authenticate_or_request_with_http_basic do |username, password|
-      username == "test" && password == "test"
-    end
   end
 
   private

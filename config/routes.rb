@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
+  devise_for :admin_users, ActiveAdmin::Devise.config
+  ActiveAdmin.routes(self)
+  devise_for :users
   root to: 'pages#home'
 
-  get "admin", to: "posts#admin"
   delete "posts/:id", to: "posts#destroy", as: :delete
   resources :posts
   resources :contacts, only: [:new, :create]

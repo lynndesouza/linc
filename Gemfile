@@ -18,6 +18,8 @@ gem 'rspec'
 gem 'mail_form', '~> 1.5', '>= 1.5.1'
 gem 'cloudinary'
 gem 'carrierwave'
+gem 'devise'
+gem 'activeadmin'
 gem 'jquery-rails'
 gem "loofah", ">= 2.2.3"
 gem 'sassc-rails'
