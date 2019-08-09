@@ -30,6 +30,38 @@
 }
 
 
+
+@media only screen and (min-device-width : 1445px) and (max-device-width : 2560px) {
+ 
+}
+
+@media only screen  and (min-width : 1024px) and (max-device-width : 1440px) {
+
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+ }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 425px) {
+ #banner-campaign {
+  height: calc(100vh - 110px);
+   text-align: center !important;
+   background-position-x: 60%; 
+ }
+
+#force-main {
+	margin-top: 0.3em !important;
+}
+
+.margin-bottom {
+	margin-bottom: 1.5rem;
+}
+
+}
+
+
+
+
 #text-strong {
 	color: $linc-orange;
 	font-weight: bold;
