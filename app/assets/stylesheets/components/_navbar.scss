@@ -9,13 +9,31 @@
   padding-right: 15px;
 }
 
-.navbar-toggler {
-  margin-top: 30px;
+// .navbar-toggler {
+//   margin-top: 30px;
+// }
+
+.custom-toggler.navbar-toggler {
+    border-color: $linc-orange;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(215,83,33, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-.navbar-brand .navbar-nav .nav-item {
-    display: block;
+// .navbar-brand .navbar-nav .nav-item {
+//     display: block;
+//   }
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  #navbar-main {
+    display: none;
   }
+  #navbar-secondary {
+    display: none;
+  }
+}
+
 
 
 /* Navbar links */
@@ -36,6 +54,11 @@
   }
 }
 
+
+#Force {
+  color: #D75321;
+  font-weight: bolder;
+}
 
 
 #navbar-secondary {
@@ -104,6 +127,7 @@ input[type=search]:focus {
 /* ---Donate button with animated hover ---- */
 #donate {
 color: white;
+outline: none !important;
 padding: 10px 15px;
 border-radius: 4px;
 font-weight: bold;

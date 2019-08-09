@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-md fixed-top" id="navbar-main">
-    <div class="navbar-collapse collapse dual-collapse2">
+    <div class="navbar-collapse collapse w-100 order-1 order-md-0 navbarToggler01">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
               <%= link_to 'Join LINC', "https://linc.linclion.org", target: "_blank", class: 'nav-link navbar-join-link' %>
@@ -9,15 +9,15 @@
             </li>
         </ul>
     </div>
-    <div class="mx-auto">
-      <%= link_to root_path, class: "navbar-brand abs" do %>
+    <div class="mx-auto order-0">
+      <%= link_to root_path, class: "navbar-brand mx-auto" do %>
         <%= image_tag("https://res.cloudinary.com/lynn-de-souza/image/upload/v1548347093/LINC%20website/Home/logo.png") %>
       <% end %>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbarToggler01">
             <span class="navbar-toggler-icon"></span>
         </button>
     </div>
-    <div class="navbar-collapse collapse dual-collapse2">
+    <div class="navbar-collapse collapse w-100 order-3 navbarToggler01">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <%= link_to page_path('donate'), class: "nav-link", id:"donate" do %>
@@ -27,6 +27,7 @@
         </ul>
     </div>
 </nav>
+
 
 
 <nav id="navbar-secondary" class="navbar navbar-expand-sm fixed-top fixed-top-2">
@@ -58,3 +59,39 @@
 
 
 
+  <div class="container">
+    <nav class="navbar d-block d-sm-none">
+      <a class="navbar-brand" href="">
+        <img src="https://res.cloudinary.com/lynn-de-souza/image/upload/v1548347093/LINC%20website/Home/logo.png" height="30" alt="image">
+      </a>
+
+      <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav3" aria-controls="navbarNav3" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav3">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+              <%= link_to 'Home', root_path, class: 'nav-link navbar-linc-link' %>
+          </li>
+          <li class="nav-item">
+              <%= link_to 'About LINC', page_path('about/linc'), class: 'nav-link navbar-linc-link' %>
+          </li>
+          <li class="nav-item">
+              <%= link_to 'Meet the Team', page_path('about/theteam'), class: 'nav-link navbar-linc-link' %>
+          </li>
+          <li class="nav-item">
+              <%= link_to 'Contact LINC', new_contact_path, class: 'nav-link navbar-linc-link' %>
+          </li>
+          <li class="nav-item">
+              <%= link_to 'Force for Change', page_path('about/campaign'), class: 'nav-link navbar-linc-link', id: "Force" %>
+          </li>
+        </ul>
+        <div class="text-right">
+            <%= link_to page_path('donate'), class: "btn btn-outline-none nav-link", id:"donate" do %>
+                 SUPPORT
+              <% end %>
+        </div>
+      </div>
+    </nav>
+  </div>
